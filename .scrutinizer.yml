@@ -6,6 +6,8 @@ build:
     php: '5.6.16'
 checks:
     php:
+        code_rating: true
+        duplication: true
         uppercase_constants: true
         single_namespace_per_use: true
         side_effects_or_types: true
@@ -34,7 +36,7 @@ checks:
             property_name: '^[a-z][a-zA-Z0-9]*$'
             method_name: '^(?:[a-z]|__)[a-zA-Z0-9]*$'
             parameter_name: '^[a-z][a-zA-Z0-9]*$'
-            interface_name: '^[A-Z][a-zA-Z0-9]*Interface$'
+            interface_name: '^[A-Z][a-zA-Z0-9]*$'
             type_name: '^[A-Z][a-zA-Z0-9]*$'
             exception_name: '^[A-Z][a-zA-Z0-9]*Exception$'
             isser_method_name: '^(?:is|has|should|may|supports)'
@@ -47,7 +49,6 @@ checks:
             order_alphabetically: true
         fix_line_ending: true
         fix_doc_comments: true
-        code_rating: true
         avoid_todo_comments: true
 tools:
   php_code_sniffer:
