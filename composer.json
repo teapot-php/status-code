@@ -21,5 +21,8 @@
     },
     "autoload": {
         "psr-4": { "Teapot\\StatusCode\\": "src" }
+    },
+    "archive": {
+      "exclude": ["/*, !/src"]
     }
 }
