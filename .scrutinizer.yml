@@ -1,4 +1,3 @@
-%YAML 1.2
 ---
 # inherit the next configuration down the chain (see above for the order)
 inherit: true
