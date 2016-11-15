@@ -1,9 +1,11 @@
-# php-immutable-collections
+# Teapot: Status Codes
 
 [![latest_stable_version_img]][latest_stable_version]
 [![latest_unstable_version_img]][latest_unstable_version]
 [![license_img]][license]
 [![twitter_img]][twitter]
+
+Part of the teapot library. This is a port of all of the status codes, so the exceptions etc don't get included in this one.
 
 [latest_stable_version_img]: https://img.shields.io/packagist/v/teapot/status-code.svg "Latest Stable Version"
 [latest_stable_version]: https://packagist.org/packages/teapot/status-code "Latest Stable Version"
