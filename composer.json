@@ -1,7 +1,7 @@
 {
     "name": "teapot/status-code",
     "type": "library",
-    "description": "PHP HTTP Response Status library",
+    "description": "PHP HTTP Response Status code ibrary",
     "keywords": ["http"],
     "homepage": "http://shrikeh.github.com/teapot",
     "license": "MIT",
@@ -12,10 +12,9 @@
         }
     ],
     "require": {
-        "php":             ">=5.3.3"
+        "php":             ">=5.4"
     },
     "require-dev": {
-        "phpunit/phpunit":              "3.7.*",
         "phploc/phploc":                ">=1.7.4",
         "pdepend/pdepend":              "*",
         "shrink/phpcpd":                "dev-master",
