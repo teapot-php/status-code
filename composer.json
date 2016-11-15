@@ -25,6 +25,6 @@
         "theseer/phpdox":               "*"
     },
     "autoload": {
-        "psr-4": { "Teapot\\StatusCode": "src" }
+        "psr-4": { "Teapot\\StatusCode\\": "src" }
     }
 }
