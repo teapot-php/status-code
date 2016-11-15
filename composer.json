@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "php":             ">=5.4"
+        "php": ">=5.4"
     },
     "require-dev": {
         "phpmd/phpmd":                  ">=1.4.0",
