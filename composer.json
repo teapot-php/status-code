@@ -15,10 +15,6 @@
         "php":             ">=5.4"
     },
     "require-dev": {
-        "phploc/phploc":                ">=1.7.4",
-        "pdepend/pdepend":              "*",
-        "shrink/phpcpd":                "dev-master",
-        "zerkalica/php-code-browser":   "dev-master",
         "phpmd/phpmd":                  ">=1.4.0",
         "squizlabs/php_codesniffer":    "1.*",
         "theseer/phpdox":               "*"
