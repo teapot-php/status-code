@@ -22,10 +22,10 @@ atlassian-ide-plugin.xml
 
 # PHP-specific files #
 #######################
-vendor
-bin
-data
-build
+/vendor/*
+/bin/*
+/data/*
+/build/*
 composer.phar
 
 # Dot files we want to keep #
