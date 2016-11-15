@@ -24,13 +24,7 @@
         "squizlabs/php_codesniffer":    "1.*",
         "theseer/phpdox":               "*"
     },
-    "target-dir": "Teapot/HttpResponse/Status",
     "autoload": {
-        "psr-0": { "Teapot\\HttpResponse\\Status": "" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
+        "psr-4": { "Teapot\\StatusCode": "src" }
     }
 }
