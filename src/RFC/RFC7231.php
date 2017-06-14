@@ -207,7 +207,19 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * @codingStandardsIgnoreEnd
      * @var int
      */
-    const NON_AUTHORATIVE_INFORMATION = 203;
+    const NON_AUTHORITATIVE_INFORMATION = 203;
+
+    /**
+     * The 203 (Non-Authoritative Information) status code used to be available
+     * via NON_AUTHORATIVE_INFORMATION, which contained a typo. This typo has
+     * since been fixed and this constant has been deprecated in favor of the
+     * properly spelled constant.
+     *
+     * @see Teapot\StatusCode\RFC\RFC7231:NON_AUTHORITATIVE_INFORMATION
+     * @var int
+     * @deprecated
+     */
+    const NON_AUTHORATIVE_INFORMATION = self::NON_AUTHORITATIVE_INFORMATION;
 
     /**
      * The 204 (No Content) status code indicates that the server has
