@@ -68,7 +68,7 @@ interface Symfony
     const HTTP_OK                                                        = RFC7231::OK;
     const HTTP_CREATED                                                   = RFC7231::CREATED;
     const HTTP_ACCEPTED                                                  = RFC7231::ACCEPTED;
-    const HTTP_NON_AUTHORITATIVE_INFORMATION                             = RFC7231::NON_AUTHORATIVE_INFORMATION;
+    const HTTP_NON_AUTHORITATIVE_INFORMATION                             = RFC7231::NON_AUTHORITATIVE_INFORMATION;
     const HTTP_NO_CONTENT                                                = RFC7231::NO_CONTENT;
     const HTTP_RESET_CONTENT                                             = RFC7231::RESET_CONTENT;
     const HTTP_PARTIAL_CONTENT                                           = RFC7233::PARTIAL_CONTENT;
