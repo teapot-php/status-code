@@ -25,10 +25,7 @@ namespace Teapot\StatusCode;
 use Teapot\StatusCode\RFC\PEP;
 use Teapot\StatusCode\RFC\RFC2295 as ContentNegotiation;
 use Teapot\StatusCode\RFC\RFC2326 as Rtsp;
-use Teapot\StatusCode\RFC\RFC2817 as TLS;
 use Teapot\StatusCode\RFC\RFC3229 as HttpDeltas;
-use Teapot\StatusCode\Vendor;
-use Teapot\StatusCode\WebDAV;
 
 /**
  * Interface representing extended HTTP status codes for Web servers. These
@@ -55,7 +52,6 @@ interface All extends
     ContentNegotiation,
     Rtsp,
     Http,
-    TLS,
     HttpDeltas,
     Vendor
 {
