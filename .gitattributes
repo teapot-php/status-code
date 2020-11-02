@@ -1,6 +1,7 @@
 *      text=auto
 *.bat  eol=crlf
 
+/.github/         export-ignore
 /test             export-ignore
 /spec             export-ignore
 
