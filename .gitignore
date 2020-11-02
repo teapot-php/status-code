@@ -33,5 +33,4 @@ composer.phar
 !/.git*
 !/.travis.yml
 !/.php_cs
-!/.scrutinizer.yml
 !/.editorconfig
