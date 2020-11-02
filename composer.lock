@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e62f351e4f7df292d98bd78c722059b6",
+    "content-hash": "0548cf5e89a9ee61ed1c3bbf3bdcd8cf",
     "packages": [],
     "packages-dev": [
         {
@@ -52,6 +52,10 @@
                 "phpcs",
                 "symfony"
             ],
+            "support": {
+                "issues": "https://github.com/djoos/Symfony-coding-standard/issues",
+                "source": "https://github.com/djoos/Symfony-coding-standard/tree/master"
+            },
             "time": "2017-11-09T12:15:48+00:00"
         },
         {
@@ -103,6 +107,11 @@
                 "phpcs",
                 "standards"
             ],
+            "support": {
+                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
+                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
+                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
+            },
             "time": "2017-12-19T21:44:46+00:00"
         }
     ],
@@ -114,5 +123,9 @@
     "platform": {
         "php": ">=5.4"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.4.45"
+    },
+    "plugin-api-version": "2.0.0"
 }
