@@ -23,6 +23,9 @@
   "config": {
     "bin-dir": "bin",
     "optimize-autoloader": true,
+    "platform": {
+      "php": "5.4.45"
+    },
     "sort-packages": true
   },
   "autoload": {
