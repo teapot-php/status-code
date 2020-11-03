@@ -26,11 +26,10 @@ jobs:
       - name: "Checkout"
         uses: "actions/checkout@v2.3.3"
 
-      - name: "Install PHP with extensions"
+      - name: "Install PHP"
         uses: "shivammathur/setup-php@2.7.0"
         with:
           coverage: "none"
-          extensions: "${{ env.PHP_EXTENSIONS }}"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Validate composer.json and composer.lock"
