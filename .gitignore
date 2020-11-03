@@ -31,6 +31,5 @@ composer.phar
 # Dot files we want to keep #
 #######################
 !/.git*
-!/.travis.yml
 !/.php_cs
 !/.editorconfig
