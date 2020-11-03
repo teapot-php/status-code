@@ -6,14 +6,50 @@ on: # yamllint disable-line rule:truthy
   pull_request: null
   push:
     branches:
-      - "main"
+      - "master"
 
 jobs:
-  hello:
-    name: "Hello"
+  coding-standards:
+    name: "Coding Standards"
 
     runs-on: "ubuntu-latest"
 
+    strategy:
+      matrix:
+        php-version:
+          - "5.4"
+
+        dependencies:
+          - "locked"
+
     steps:
-      - name: "Say hello"
-        run: "echo 'Hello!'"
+      - name: "Checkout"
+        uses: "actions/checkout@v2.3.3"
+
+      - name: "Install PHP with extensions"
+        uses: "shivammathur/setup-php@2.7.0"
+        with:
+          coverage: "none"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          php-version: "${{ matrix.php-version }}"
+
+      - name: "Validate composer.json and composer.lock"
+        run: "composer validate --strict"
+
+      - name: "Determine composer cache directory"
+        uses: "./.github/actions/composer/composer/determine-cache-directory"
+
+      - name: "Cache dependencies installed with composer"
+        uses: "actions/cache@v2.1.2"
+        with:
+          path: "${{ env.COMPOSER_CACHE_DIR }}"
+          key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
+          restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
+
+      - name: "Install ${{ matrix.dependencies }} dependencies with composer"
+        uses: "./.github/actions/composer/composer/install"
+        with:
+          dependencies: "${{ matrix.dependencies }}"
+
+      - name: "Run squizlabs/php_codesniffer"
+        run: "vendor/bin/phpcbf"
