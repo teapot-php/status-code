@@ -1,5 +1,6 @@
 # Teapot: Status Codes
 
+[![Integrate](https://github.com/teapot-php/status-code/workflows/Integrate/badge.svg?branch=master)](https://github.com/teapot-php/status-code/actions)
 [![latest_stable_version_img]][latest_stable_version]
 [![latest_unstable_version_img]][latest_unstable_version]
 [![license_img]][license]
