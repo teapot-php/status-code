@@ -69,10 +69,7 @@ interface RFC5842 extends ExperimentalStatus, IETFStream
      * an infinite loop while processing a request with "Depth: infinity".
      * (sent in lieu of 208).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://tools.ietf.org/html/draft-ietf-webdav-collection-protocol-04#section-7.1
-     * @codingStandardsIgnoreEnd
      *
      * @var int
      */

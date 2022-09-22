@@ -62,10 +62,9 @@ interface RFC7231 extends ProposedStandard, IETFStream
    * If the request did not contain an Expect header field containing the
    * 100-continue expectation, the client can simply discard this interim
    * response.
-   * @codingStandardsIgnoreStart
    *
    * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.100
-   * @codingStandardsIgnoreEnd
+   *
    * @var int
    */
     const CONTINUING = 100;
@@ -94,10 +93,9 @@ interface RFC7231 extends ProposedStandard, IETFStream
    * might be advantageous over older versions, and switching to a real-time,
    * synchronous protocol might be advantageous when delivering resources that
    * use such features.
-   * @codingStandardsIgnoreStart
    *
    * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.101
-   * @codingStandardsIgnoreEnd
+   *
    * @var int
    */
     const SWITCHING_PROTOCOLS = 101;
@@ -134,7 +132,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * {@link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7234.html#heuristic.freshness RFC7234}).
      *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.101
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const OK = 200;
@@ -151,10 +149,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * validator header fields, such as ETag and Last-Modified, in a 201
      * response.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.201
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const CREATED = 201;
@@ -175,10 +171,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * monitor that can provide the user with an estimate of when the request
      * will be fulfilled.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.202
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const ACCEPTED = 202;
@@ -201,10 +195,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.203
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const NON_AUTHORITATIVE_INFORMATION = 203;
@@ -254,10 +246,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.204
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const NO_CONTENT = 204;
@@ -286,10 +276,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * c) close the connection immediately after sending the blank line
      * terminating the header section.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.205
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const RESET_CONTENT = 205;
@@ -334,10 +322,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * with a relationship of "alternate", though deployment is a
      * chicken-and-egg problem.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.300
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const MULTIPLE_CHOICES = 300;
@@ -364,10 +350,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.301
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const MOVED_PERMANENTLY = 301;
@@ -388,10 +372,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * from POST to GET for the subsequent request. If this behavior is
      * undesired, the 307 (Temporary Redirect) status code can be used instead.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.302
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const FOUND = 302;
@@ -426,10 +408,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * response ought to contain a short hypertext note with a hyperlink to the
      * same URI reference provided in the Location header field.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.303
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const SEE_OTHER = 303;
@@ -438,10 +418,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * The 305 (Use Proxy) status code was defined in a previous version of this
      * specification and is now deprecated
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.305
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      * @deprecated
      */
@@ -451,10 +429,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * The 306 (Unused) status code was defined in a previous version of this
      * specification, is no longer used, and the code is reserved.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.306
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      * @deprecated
      */
@@ -480,10 +456,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * however, defines the status code 308 (Permanent Redirect) for this
      * purpose).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.307
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const TEMPORARY_REDIRECT = 307;
@@ -494,10 +468,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * client error (e.g., malformed request syntax, invalid request message
      * framing, or deceptive request routing).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.400
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const BAD_REQUEST = 400;
@@ -505,10 +477,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
     /**
      * The 402 (Payment Required) status code is reserved for future use.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.402
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const PAYMENT_REQUIRED = 402;
@@ -529,10 +499,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * forbidden target resource may instead respond with a status code of 404
      * (Not Found).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.403
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const FORBIDDEN = 403;
@@ -550,10 +518,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.404
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const NOT_FOUND = 404;
@@ -569,10 +535,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.405
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const METHOD_NOT_ALLOWED = 405;
@@ -591,10 +555,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * that list. However, this specification does not define any standard for
      * such automatic selection, as described in Section 6.4.1.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.406
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const NOT_ACCEPTABLE = 406;
@@ -608,10 +570,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * the client has an outstanding request in transit, the client may repeat
      * that request on a new connection.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.408
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const REQUEST_TIMEOUT = 408;
@@ -632,10 +592,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * response representation would likely contain information useful for
      * merging the differences based on the revision history.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.409
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const CONFLICT = 409;
@@ -660,10 +618,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.410
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const GONE = 410;
@@ -675,10 +631,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * Content-Length header field containing the length of the message body in
      * the request message.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.411
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const LENGTH_REQUIRED = 411;
@@ -693,10 +647,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * header field to indicate that it is temporary and after what time the
      * client may try again.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.413
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const PAYLOAD_TOO_LARGE = 413;
@@ -716,10 +668,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
       * by the method definition or explicit cache controls (see Section 4.2.2
       * of [RFC7234]).
       *
-      * @codingStandardsIgnoreStart
-      *
       * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.414
-      * @codingStandardsIgnoreEnd
+      *
       * @var int
       */
     const URI_TOO_LONG = 414;
@@ -731,10 +681,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * problem might be due to the request's indicated Content-Type or
      * Content-Encoding, or as a result of inspecting the data directly.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.415
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const UNSUPPORTED_MEDIA_TYPE = 415;
@@ -744,10 +692,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * given in the request's Expect header field (Section 5.1.1) could not be
      * met by at least one of the inbound servers.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.417
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const EXPECTATION_FAILED = 417;
@@ -769,10 +715,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * This service requires use of the HTTP/3.0 protocol.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.426
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const UPGRADE_REQUIRED = 426;
@@ -782,10 +726,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * encountered an unexpected condition that prevented it from fulfilling the
      * request.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.500
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const INTERNAL_SERVER_ERROR = 500;
@@ -800,10 +742,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.501
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const NOT_IMPLEMENTED = 501;
@@ -813,10 +753,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * as a gateway or proxy, received an invalid response from an inbound
      * server it accessed while attempting to fulfill the request.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.502
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const BAD_GATEWAY = 502;
@@ -833,10 +771,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * has to use it when becoming overloaded. Some servers might simply refuse
      * the connection.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.503
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const SERVICE_UNAVAILABLE = 503;
@@ -846,10 +782,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * acting as a gateway or proxy, did not receive a timely response from an
      * upstream server it needed to access in order to complete the request.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.504
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const GATEWAY_TIMEOUT = 504;
@@ -864,10 +798,8 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * 505 response that describes why that version is not supported and what
      * other protocols are supported by that server.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7231.html#status.505
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const HTTP_VERSION_NOT_SUPPORTED = 505;

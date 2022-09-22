@@ -62,10 +62,7 @@ interface RFC7725 extends ProposedStandard, IETFStream
      * legal authority is imposing it, and what class of resources it
      * applies to.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link http://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-00#section-3
-     * @codingStandardsIgnoreEnd
      *
      * @var int
      */

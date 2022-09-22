@@ -62,10 +62,8 @@ interface RFC7235 extends ProposedStandard, IETFStream
      * enclosed representation to the user, since it usually contains relevant
      * diagnostic information.
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7235.html#status.401
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const UNAUTHORIZED = 401;
@@ -78,10 +76,8 @@ interface RFC7235 extends ProposedStandard, IETFStream
      * proxy for the target resource. The client may repeat the request with a
      * new or replaced Proxy-Authorization header field (Section 4.4).
      *
-     * @codingStandardsIgnoreStart
-     *
      * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7235.html#status.407
-     * @codingStandardsIgnoreEnd
+     *
      * @var int
      */
     const PROXY_AUTHENTICATION_REQUIRED = 407;
