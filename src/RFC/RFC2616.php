@@ -154,18 +154,6 @@ interface RFC2616 extends DraftStandard, IETFStream
     const NON_AUTHORITATIVE_INFORMATION = 203;
 
     /**
-     * The 203 (Non-Authoritative Information) status code used to be available
-     * via NON_AUTHORATIVE_INFORMATION, which contained a typo. This typo has
-     * since been fixed and this constant has been deprecated in favor of the
-     * properly spelled constant.
-     *
-     * @see Teapot\StatusCode\RFC\RFC2616:NON_AUTHORITATIVE_INFORMATION
-     * @var int
-     * @deprecated
-     */
-    const NON_AUTHORATIVE_INFORMATION = self::NON_AUTHORITATIVE_INFORMATION;
-
-    /**
      * The server has fulfilled the request but does not need to return an
      * entity-body, and might want to return updated metainformation. The
      * response MAY include new or updated metainformation in the form of
