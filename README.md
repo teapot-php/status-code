@@ -19,3 +19,7 @@ Part of the teapot library. This is a port of all of the status codes, so the ex
 
 [twitter_img]: https://img.shields.io/badge/twitter-%40shrikeh-blue.svg "@shrikeh on Twitter"
 [twitter]: https://twitter.com/shrikeh
+
+## Changelog
+
+Please have a look at [`CHANGELOG.md`](CHANGELOG.md).
