@@ -125,7 +125,6 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * instead. For CONNECT, no payload is allowed because the successful result
      * is a tunnel, which begins immediately after the 200 response header
      * section.
-     * @codingStandardsIgnoreStart
      *
      *  A 200 response is cacheable by default; i.e., unless otherwise indicated
      * by the method definition or explicit cache controls (see Section 4.2.2 of
