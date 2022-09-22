@@ -50,7 +50,7 @@ interface RFC2324 extends InformationalStatus, LegacyStream
      * The HTCPCP server is a teapot; the resulting entity may be short and
      * stout. Demonstrations of this behaviour exist.
      *
-     * @link http://www.ietf.org/rfc/rfc2324.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2324#section-2.3.2
      *
      * @var int
      */

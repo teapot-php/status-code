@@ -58,7 +58,7 @@ interface RFC5842 extends ExperimentalStatus, IETFStream
      * bindings will use the 208 status, and no DAV:response elements for
      * their descendants are included.
      *
-     * @link http://www.ietf.org/rfc/rfc5842.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc5842#section-7.1
      *
      * @var int
      */
@@ -69,7 +69,7 @@ interface RFC5842 extends ExperimentalStatus, IETFStream
      * an infinite loop while processing a request with "Depth: infinity".
      * (sent in lieu of 208).
      *
-     * @link https://tools.ietf.org/html/draft-ietf-webdav-collection-protocol-04#section-7.1
+     * @link https://datatracker.ietf.org/doc/html/rfc5842#section-7.2
      *
      * @var int
      */

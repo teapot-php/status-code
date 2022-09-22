@@ -60,7 +60,7 @@ interface RFC2774 extends ExperimentalStatus, LegacyStream
      * included in the 510 response to the user, since that entity may
      * include relevant diagnostic information.
      *
-     * @link http://tools.ietf.org/search/rfc2774#section-7
+     * @link https://datatracker.ietf.org/doc/html/rfc2774#section-7
      *
      * @var int
      */

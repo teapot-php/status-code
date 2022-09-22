@@ -66,7 +66,7 @@ interface PEP extends ExpiredStatus, IETFStream
      * Implementers may note the similarity to the way authentication
      * challenges are issued with the 401 (Unauthorized) status-code.
      *
-     * @link http://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743960
+     * @link https://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743960
      * @deprecated
      * @var int
      */
@@ -79,7 +79,7 @@ interface PEP extends ExpiredStatus, IETFStream
      * believes that it can find a unique set of header fields for which the
      * transaction will succeed.
      *
-     * @link http://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743961
+     * @link https://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743961
      * @deprecated
      * @var int
      */

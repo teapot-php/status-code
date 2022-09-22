@@ -52,7 +52,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * The recipient of the request does not support one or more parameters
      * contained in the request.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.2
      *
      * @var int
      */
@@ -62,7 +62,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * The conference indicated by a Conference header field is unknown to the
      * media server.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.3
      *
      * @var int
      */
@@ -72,7 +72,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * The request was refused because there was insufficient bandwidth.
      * This may, for example, be the result of a resource reservation failure.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.4
      *
      * @var int
      */
@@ -82,7 +82,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * The RTSP session identifier in the Session header is missing, invalid,
      * or has timed out.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.5
      *
      * @var int
      */
@@ -93,7 +93,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * The response SHOULD contain an Allow header to make error recovery
      * easier.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.6
      *
      * @var int
      */
@@ -104,7 +104,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * PLAY contains the Range header field but the stream does not allow
      * seeking.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.7
      *
      * @var int
      */
@@ -114,7 +114,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * The Range value given is out of bounds, e.g., beyond the end of the
      * presentation.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.8
      *
      * @var int
      */
@@ -123,7 +123,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
     /**
      * The parameter to be set by SET_PARAMETER can be read but not modified.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.9
      *
      * @var int
      */
@@ -134,7 +134,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * is an aggregate (presentation) URL. The method may be applied on a
      * stream URL.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.10
      *
      * @var int
      */
@@ -145,7 +145,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * is not an aggregate (presentation) URL. The method may be applied on the
      * presentation URL.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.11
      *
      * @var int
      */
@@ -155,7 +155,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * The Transport field did not contain a supported transport
      * specification.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.12
      *
      * @var int
      */
@@ -167,7 +167,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      * be the result of a client attempt to place an invalid Destination
      * parameter in the Transport field.
      *
-     * @link http://www.ietf.org/rfc/rfc2326.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.13
      *
      * @var int
      */

@@ -57,7 +57,7 @@ interface RFC3648 extends ProposedStandard, IETFStream
      * present in "Web Distributed Authoring and Versioning (WebDAV) Ordered
      * Collections Protocol".
      *
-     * @link https://tools.ietf.org/html/draft-ietf-webdav-collection-protocol-04#section-7.2
+     * @link https://datatracker.ietf.org/doc/html/draft-ietf-webdav-collection-protocol-04#section-425
      *
      * @var int
      */

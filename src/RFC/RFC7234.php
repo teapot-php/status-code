@@ -50,7 +50,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
     /**
      * A cache SHOULD generate this whenever the sent response is stale.
      *
-     * @link https://tools.ietf.org/html/rfc7234#section-5.5.1
+     * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.1
      * @var  int
      */
     const RESPONSE_IS_STALE = 110;
@@ -60,7 +60,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * attempt to validate the response failed, due to an inability to reach
      * the server.
      *
-     * @link https://tools.ietf.org/html/rfc7234#section-5.5.2
+     * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.2
      * @var  int
      */
     const REVALIDATION_FAILED = 111;
@@ -69,7 +69,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * A cache SHOULD generate this if it is intentionally disconnected from
      * the rest of the network for a period of time.
      *
-     * @link https://tools.ietf.org/html/rfc7234#section-5.5.3
+     * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.3
      * @var  int
      */
     const DISCONNECTED_OPERATION = 112;
@@ -79,7 +79,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * lifetime greater than 24 hours and the response's age is greater than
      * 24 hours.
      *
-     * @link https://tools.ietf.org/html/rfc7234#section-5.5.4
+     * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.4
      * @var  int
      */
     const HEURISTIC_EXPIRATION = 113;
@@ -90,7 +90,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * take any automated action, besides presenting the warning to the
      * user.
      *
-     * @link https://tools.ietf.org/html/rfc7234#section-5.5.5
+     * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.5
      * @var  int
      */
     const MISCELLANEOUS_WARNING = 199;
@@ -101,7 +101,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * content-coding, media-type, or modifying the representation data,
      * unless this Warning code already appears in the response.
      *
-     * @link https://tools.ietf.org/html/rfc7234#section-5.5.6
+     * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.6
      * @var  int
      */
     const TRANSFORMATION_APPLIED = 214;
@@ -111,7 +111,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * a human user or logged.  A system receiving this warning MUST NOT
      * take any automated action.
      *
-     * @link https://tools.ietf.org/html/rfc7234#section-5.5.7
+     * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.7
      * @var  int
      */
     const MISCELLANEOUS_PERSISTENT_WARNING = 299;

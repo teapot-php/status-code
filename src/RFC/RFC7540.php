@@ -65,7 +65,7 @@ interface RFC7540 extends ProposedStandard, IETFStream
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://http2.github.io/http2-spec/#MisdirectedRequest
+     * @link https://datatracker.ietf.org/doc/html/rfc7540#section-9.1.2
      *
      * @var int
      */

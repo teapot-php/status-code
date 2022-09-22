@@ -140,7 +140,7 @@ interface RFC7233 extends ProposedStandard, IETFStream
      * A 206 response is cacheable by default; i.e., unless otherwise indicated
      * by explicit cache controls (see Section 4.2.2 of [RFC7234]).
      *
-     * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7233.html#status.206
+     * @link https://datatracker.ietf.org/doc/html/rfc7233#section-4.1
      *
      * @var int
      */
@@ -169,7 +169,7 @@ interface RFC7233 extends ProposedStandard, IETFStream
     * receiving a 416 (Range Not Satisfiable) response even when it is most
     * appropriate.
     *
-    * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7233.html#status.416
+    * @link https://datatracker.ietf.org/doc/html/rfc7233#section-4.4
     *
     * @var int
     */

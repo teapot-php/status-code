@@ -54,7 +54,7 @@ interface RFC2817 extends ProposedStandard, IETFStream
      * Upgrade header in any response other than 101 or 426 to indicate a
      * willingness to switch to any (combination) of the protocols listed.
      *
-     * @link http://tools.ietf.org/search/rfc2817#section-3.3
+     * @link https://datatracker.ietf.org/doc/html/rfc2817#section-4.2
      *
      * @var int
      */
