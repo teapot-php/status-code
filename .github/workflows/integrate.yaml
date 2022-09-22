@@ -31,6 +31,7 @@ jobs:
         with:
           coverage: "none"
           php-version: "${{ matrix.php-version }}"
+          tools: "composer:2.2.18"
 
       - name: "Validate composer.json and composer.lock"
         run: "composer validate --strict"
