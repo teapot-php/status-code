@@ -11,6 +11,10 @@
     {
       "name": "Barney Hanlon",
       "email": "barney@shrikeh.net"
+    },
+    {
+      "name": "Andreas Möller",
+      "email": "am@localheinz.com"
     }
   ],
   "require": {
