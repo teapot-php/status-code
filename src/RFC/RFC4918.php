@@ -58,7 +58,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      * destination resource was locked and could not be overwritten, then the
      * destination resource URL appears with the 423 (Locked) status.
      *
-     * @link http://www.ietf.org/rfc/rfc4918.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc4918/#section-11.1
      *
      * @var int
      */
@@ -74,7 +74,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      * request body contains well-formed (i.e., syntactically correct), but
      * semantically erroneous, XML instructions.
      *
-     * @link http://www.ietf.org/rfc/rfc4918.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc4918/#section-11.2
      *
      * @var int
      */
@@ -86,7 +86,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      * precondition or post-condition code, such as 'lock-token-submitted' or
      * 'no-conflicting-lock'.
      *
-     * @link http://www.ietf.org/rfc/rfc4918.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc4918/#section-11.3
      *
      * @var int
      */
@@ -97,7 +97,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      * its scope because some part of the method's execution failed causing the
      * entire method to be aborted.
      *
-     * @link http://www.ietf.org/rfc/rfc4918.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc4918/#section-11.4
      *
      * @var int
      */
@@ -110,7 +110,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      * command in a PROPPATCH method fails then, at minimum, the rest
      * of the commands will also fail with 424 (Failed Dependency).
      *
-     * @link http://www.ietf.org/rfc/rfc4918.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc4918/#section-11.4
      *
      * @var int
      */
@@ -120,7 +120,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      * The server is unable to store the representation needed to complete the
      * request.
      *
-     * @link http://www.ietf.org/rfc/rfc4918.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc4918/#section-11.5
      *
      * @var int
      */

@@ -58,7 +58,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * is received in response before continuing (or receive
      * 417 Expectation Failed and not continue).
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.1.1
      *
      * @var int
      */
@@ -74,7 +74,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * no response is available yet.[3] This prevents the client from timing out
      * and assuming the request was lost.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.1.2
      *
      * @var int
      */
@@ -91,7 +91,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * TRACE an entity containing the request message as received by the end
      * server.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.2.1
      *
      * @var int
      */
@@ -110,7 +110,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * action cannot be carried out immediately, the server SHOULD respond with
      * 202 (Accepted) response instead.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.2.2
      *
      * @var int
      */
@@ -132,7 +132,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * pointer to a status monitor or some estimate of when the user can expect
      * the request to be fulfilled.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.2.3
      *
      * @var int
      */
@@ -147,7 +147,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * known by the origin server. Use of this response code is not required
      * and is only appropriate when the response would otherwise be 200 (OK).
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.2.4
      *
      * @var int
      */
@@ -181,7 +181,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * The 204 response MUST NOT include a message-body, and thus is always
      * terminated by the first empty line after the header fields.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.2.5
      *
      * @var int
      */
@@ -195,7 +195,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * so that the user can easily initiate another input action. The response
      * MUST NOT include an entity.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.2.6
      *
      * @var int
      */
@@ -235,7 +235,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * A cache that does not support the Range and Content-Range headers
      * MUST NOT cache 206 (Partial) responses.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.2.7
      *
      * @var int
      */
@@ -260,7 +260,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * field value for automatic redirection. This response is cacheable
      * unless indicated otherwise.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.3.1
      *
      * @var int
      */
@@ -286,7 +286,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *     receiving a 301 status code, some existing HTTP/1.0 user agents
      *     will erroneously change it into a GET request.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.3.2
      *
      * @var int
      */
@@ -314,7 +314,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *     been added for servers that wish to make unambiguously clear which
      *     kind of reaction is expected of the client.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.3.3
      *
      * @var int
      */
@@ -337,7 +337,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *     302 status code may be used instead, since most user agents react
      *     to a 302 response as described here for 303.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.3.4
      *
      * @var int
      */
@@ -373,7 +373,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * cache MUST update the entry to reflect any new field values given in the
      * response.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.3.5
      *
      * @var int
      */
@@ -389,7 +389,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *     Not observing these limitations has significant security
      *     consequences.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.3.6
      *
      * @var int
      */
@@ -411,7 +411,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * request unless it can be confirmed by the user, since this might change
      * the conditions under which the request was issued.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.3.7
      *
      * @var int
      */
@@ -421,7 +421,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * The request could not be understood by the server due to malformed
      * syntax. The client SHOULD NOT repeat the request without modifications.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.1
      *
      * @var int
      */
@@ -441,7 +441,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * diagnostic information. HTTP access authentication is explained in
      * "HTTP Authentication: Basic and Digest Access Authentication" [43].
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.2
      *
      * @var int
      */
@@ -450,7 +450,7 @@ interface RFC2616 extends DraftStandard, IETFStream
     /**
      * This code is reserved for future use.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.3
      *
      * @var int
      */
@@ -465,7 +465,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * information available to the client, the status code 404 (Not Found)
      * can be used instead.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.4
      *
      * @var int
      */
@@ -481,7 +481,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * reveal exactly why the request has been refused, or when no other
      * response is applicable.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.5
      *
      * @var int
      */
@@ -492,7 +492,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * identified by the Request-URI. The response MUST include an Allow header
      * containing a list of valid methods for the requested resource.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.6
      *
      * @var int
      */
@@ -521,7 +521,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * stop receipt of more data and query the user for a decision on further
      * actions.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.7
      *
      * @var int
      */
@@ -536,7 +536,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * header field (section 14.34). HTTP access authentication is explained
      * in "HTTP Authentication: Basic and Digest Access Authentication" [43].
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.8
      *
      * @var int
      */
@@ -547,7 +547,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * was prepared to wait. The client MAY repeat the request without
      * modifications at any later time.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.9
      *
      * @var int
      */
@@ -571,7 +571,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * differences between the two versions in a format defined by the
      * response Content-Type.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.10
      *
      * @var int
      */
@@ -596,7 +596,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * mark for any length of time -- that is left to the discretion of the
      * server owner.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.11
      *
      * @var int
      */
@@ -608,7 +608,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * Content-Length header field containing the length of the message-body
      * in the request message.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.12
      *
      * @var int
      */
@@ -621,7 +621,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * metainformation (header field data) and thus prevent the requested
      * method from being applied to a resource other than the one intended.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.13
      *
      * @var int
      */
@@ -635,7 +635,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * header field to indicate that it is temporary and after what time the
      * client MAY try again.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.14
      *
      * @var int
      */
@@ -652,7 +652,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * present in some servers using fixed-length buffers for reading or
      * manipulating the Request-URI.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.15
      *
      * @var int
      */
@@ -663,7 +663,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * request is in a format not supported by the requested resource for the
      * requested method.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.16
      *
      * @var int
      */
@@ -682,7 +682,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * the current length of the selected resource (see section 14.16). This
      * response MUST NOT use the multipart/byteranges content-type.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.17
      *
      * @var int
      */
@@ -694,7 +694,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * the server has unambiguous evidence that the request could not be met
      * by the next-hop server.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.4.18
      *
      * @var int
      */
@@ -704,7 +704,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * The server encountered an unexpected condition which prevented it from
      * fulfilling the request.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.5.1
      *
      * @var int
      */
@@ -716,7 +716,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * recognize the request method and is not capable of supporting it for
      * any resource.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.5.2
      *
      * @var int
      */
@@ -727,7 +727,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * response from the upstream server it accessed in attempting to fulfill
      * the request.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.5.3
      *
      * @var int
      */
@@ -744,7 +744,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *    server must use it when becoming overloaded. Some servers may wish to
      *    simply refuse the connection.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.5.4
      *
      * @var int
      */
@@ -758,7 +758,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *    Note: Note to implementors: some deployed proxies are known to
      *    return 400 or 500 when DNS lookups time out.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.5.5
      *
      * @var int
      */
@@ -773,7 +773,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      * The response SHOULD contain an entity describing why that version is
      * not supported and what other protocols are supported by that server.
      *
-     * @link http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+     * @link https://datatracker.ietf.org/doc/html/rfc2616#section-10.5.6
      *
      * @var int
      */

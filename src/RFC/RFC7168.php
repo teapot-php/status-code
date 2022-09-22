@@ -53,7 +53,7 @@ interface RFC7168 extends InformationalStatus, IETFStream
      * served with a status code of 300, to indicate that brewing has not
      * commenced and further options must be chosen by the client.
      *
-     * @link https://www.rfc-editor.org/rfc/rfc7168.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.1
      * @var int
      */
     const MULTIPLE_OPTIONS = 300;
@@ -69,7 +69,7 @@ interface RFC7168 extends InformationalStatus, IETFStream
      * viable combinations of additions for each variety to be served is
      * outside the scope of this document.
      *
-     * @link https://www.rfc-editor.org/rfc/rfc7168.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.2
      * @var int
      */
     const BREW_FORBIDDEN = 403;
@@ -80,7 +80,7 @@ interface RFC7168 extends InformationalStatus, IETFStream
      * coffee, or a code of 418 as defined in the base HTCPCP specification
      * to denote a more permanent indication that the pot is a teapot.
      *
-     * @link https://www.rfc-editor.org/rfc/rfc7168.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.3
      * @var int
      */
     const IM_A_TEAPOT = 418;

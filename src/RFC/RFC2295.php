@@ -50,7 +50,7 @@ interface RFC2295 extends ExperimentalStatus, IETFStream
      * Transparent content negotiation for the request results in a circular
      * reference.
      *
-     * @link http://tools.ietf.org/search/rfc2295#section-8.1
+     * @link https://datatracker.ietf.org/doc/html/rfc2295#section-8.1
      *
      * @var int
      */

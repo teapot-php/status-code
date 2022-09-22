@@ -78,7 +78,7 @@ interface RFC7232 extends ProposedStandard, IETFStream
      * A 304 response cannot contain a message-body; it is always terminated by
      * the first empty line after the header fields.
      *
-     * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7232.html#status.304
+     * @link https://datatracker.ietf.org/doc/html/rfc7232#section-4.1
      *
      * @var int
      */
@@ -92,7 +92,7 @@ interface RFC7232 extends ProposedStandard, IETFStream
      * and metadata) and, thus, prevent the request method from being applied if
      * the target resource is in an unexpected state.
      *
-     * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7232.html#status.412
+     * @link https://datatracker.ietf.org/doc/html/rfc7232#section-4.2
      *
      * @var int
      */

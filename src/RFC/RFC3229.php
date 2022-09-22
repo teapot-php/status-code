@@ -68,7 +68,7 @@ interface RFC3229 extends ProposedStandard, LegacyStream
      * in conjunction with a cache entry for the base instance, to create a
      * cache entry for the current instance.
      *
-     * @link http://www.ietf.org/rfc/rfc3229.txt
+     * @link https://datatracker.ietf.org/doc/html/rfc3229#section-10.4.1
      *
      * @var int
      */

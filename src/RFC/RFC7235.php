@@ -62,7 +62,7 @@ interface RFC7235 extends ProposedStandard, IETFStream
      * enclosed representation to the user, since it usually contains relevant
      * diagnostic information.
      *
-     * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7235.html#status.401
+     * @link https://datatracker.ietf.org/doc/html/rfc7235#section-3.1
      *
      * @var int
      */
@@ -76,7 +76,7 @@ interface RFC7235 extends ProposedStandard, IETFStream
      * proxy for the target resource. The client may repeat the request with a
      * new or replaced Proxy-Authorization header field (Section 4.4).
      *
-     * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7235.html#status.407
+     * @link https://datatracker.ietf.org/doc/html/rfc7235#section-3.2
      *
      * @var int
      */

@@ -68,7 +68,7 @@ interface RFC7538 extends ProposedStandard, IETFStream
      * Section 6.4.2), except that it does not allow changing the request method
      * from POST to GET.
      *
-     * @link https://svn.tools.ietf.org/svn/wg/httpbis/specs/rfc7538.html#status.308
+     * @link https://datatracker.ietf.org/doc/html/rfc7538#section-3
      *
      * @var int
      */

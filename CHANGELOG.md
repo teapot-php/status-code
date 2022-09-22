@@ -12,6 +12,10 @@ For a full diff see [`v1.1.2...main`][v1.1.2...main].
 
 - Added `CHANGELOG.md` ([#25]), by [@localheinz]
 
+### Fixed
+
+- Updated links to RFCs ([#24]), by [@localheinz]
+
 ## [`v1.1.2`][v1.1.2]
 
 For a full diff see [`v1.1.1...v1.1.2`][v1.1.1...v1.1.2].
@@ -52,5 +56,6 @@ For a full diff see [`1091250...v1.0.0`][1091250...v1.0.0].
 [v1.1.2...main]: https://github.com/teapot-php/status-code/compare/v1.1.2...main
 
 [#24]: https://github.com/teapot-php/status-code/pull/24
+[#25]: https://github.com/teapot-php/status-code/pull/25
 
 [@localheinz]: https://github.com/localheinz

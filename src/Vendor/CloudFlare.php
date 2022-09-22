@@ -54,7 +54,7 @@ interface CloudFlare
      * be the case if you're sending an abnormally high number of cookies for
      * example.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520
+     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#520error
      *
      * @var int
      */
@@ -75,7 +75,7 @@ interface CloudFlare
      * security solutions can mistake the increase in connections from this
      * smaller set of IPs as an attack, when they are legitimate.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/200171916-Error-521
+     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#521error
      *
      * @var int
      */
@@ -98,7 +98,7 @@ interface CloudFlare
      * The likely cause is that a background task is timing out. The most common
      * cause would be the database or a slow application.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/200171906-Error-522
+     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#522error
      *
      * @var int
      */
@@ -117,7 +117,7 @@ interface CloudFlare
      * As soon as you make the change in your CloudFlare DNS Settings page, wait
      * up to 5 minutes for it to take effect.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/200171946-Error-523
+     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#523error
      *
      * @var int
      */
@@ -139,7 +139,7 @@ interface CloudFlare
      * server is overloaded. With a 524 error, the connection is made but then
      * the request times out.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/200171926-Error-524
+     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#524error
      *
      * @var int
      */
