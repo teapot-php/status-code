@@ -15,7 +15,6 @@ use Ergebnis\PhpCsFixer;
 
 $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\Php80(), [
     'binary_operator_spaces' => false,
-    'class_attributes_separation' => false,
     'declare_strict_types' => false,
     'final_class' => false,
     'header_comment' => false,
