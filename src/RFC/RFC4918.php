@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC4918 extends ProposedStandard, IETFStream
+interface RFC4918 extends IETFStream, ProposedStandard
 {
     /**
      * The message body that follows is an XML message and can contain a

@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7235 extends ProposedStandard, IETFStream
+interface RFC7235 extends IETFStream, ProposedStandard
 {
     /**
      * The 401 (Unauthorized) status code indicates that the request has not

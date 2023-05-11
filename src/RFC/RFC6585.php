@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC6585 extends ProposedStandard, IETFStream
+interface RFC6585 extends IETFStream, ProposedStandard
 {
     /**
      * The origin server requires the request to be conditional. Its typical

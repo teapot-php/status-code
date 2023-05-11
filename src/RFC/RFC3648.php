@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC3648 extends ProposedStandard, IETFStream
+interface RFC3648 extends IETFStream, ProposedStandard
 {
     /**
      * Unordered Collection (Internet draft).

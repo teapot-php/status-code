@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7231 extends ProposedStandard, IETFStream
+interface RFC7231 extends IETFStream, ProposedStandard
 {
     /**
      * The 100 (Continue) status code indicates that the initial part of a request

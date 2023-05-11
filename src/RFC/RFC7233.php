@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7233 extends ProposedStandard, IETFStream
+interface RFC7233 extends IETFStream, ProposedStandard
 {
     /**
      * The 206 (Partial Content) status code indicates that the server is

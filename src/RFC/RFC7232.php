@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7232 extends ProposedStandard, IETFStream
+interface RFC7232 extends IETFStream, ProposedStandard
 {
     /**
      * The 304 (Not Modified) status code indicates that a conditional GET or

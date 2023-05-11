@@ -47,7 +47,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7725 extends ProposedStandard, IETFStream
+interface RFC7725 extends IETFStream, ProposedStandard
 {
     /**
      * This status code indicates that the server is subject to legal

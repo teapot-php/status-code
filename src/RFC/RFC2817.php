@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC2817 extends ProposedStandard, IETFStream
+interface RFC2817 extends IETFStream, ProposedStandard
 {
     /**
      * The Upgrade response header field advertises possible protocol upgrades

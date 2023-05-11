@@ -47,7 +47,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7540 extends ProposedStandard, IETFStream
+interface RFC7540 extends IETFStream, ProposedStandard
 {
     /**
      * The 421 (Misdirected Request) status code indicates that the request was

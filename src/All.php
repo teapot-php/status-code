@@ -48,12 +48,12 @@ use Teapot\StatusCode\RFC\RFC3229 as HttpDeltas;
  * @link https://github.com/teapot-php/status-code
  */
 interface All extends
-    WebDAV,
-    PEP,
     ContentNegotiation,
-    Rtsp,
     Http,
     HttpDeltas,
-    Vendor
+    PEP,
+    Rtsp,
+    Vendor,
+    WebDAV
 {
 }

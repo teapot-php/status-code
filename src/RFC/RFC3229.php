@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\Legacy as LegacyStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC3229 extends ProposedStandard, LegacyStream
+interface RFC3229 extends LegacyStream, ProposedStandard
 {
     /**
      * The server has fulfilled a GET request for the resource, and the

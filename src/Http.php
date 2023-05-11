@@ -55,14 +55,14 @@ use Teapot\StatusCode\RFC\RFC7725 as LegalObstacles;
  * @link http://lists.w3.org/Archives/Public/public-web-perf/2013Apr/att-0007/WebRequestStatusCodes4.html
  */
 interface Http extends
-    HTCPCPTea,
-    SemanticsAndContent,
-    ConditionalRequests,
-    RangeRequests,
-    Caching,
     Authentication,
-    PermanentRedirect,
+    Caching,
+    ConditionalRequests,
+    HTCPCPTea,
     HTTP2,
-    LegalObstacles
+    LegalObstacles,
+    PermanentRedirect,
+    RangeRequests,
+    SemanticsAndContent
 {
 }

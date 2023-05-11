@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7234 extends ProposedStandard, IETFStream
+interface RFC7234 extends IETFStream, ProposedStandard
 {
     /**
      * A cache SHOULD generate this whenever the sent response is stale.

@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7538 extends ProposedStandard, IETFStream
+interface RFC7538 extends IETFStream, ProposedStandard
 {
     /**
      * The 308 (Permanent Redirect) status code indicates that the target

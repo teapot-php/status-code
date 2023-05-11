@@ -47,7 +47,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC2326 extends ProposedStandard, IETFStream
+interface RFC2326 extends IETFStream, ProposedStandard
 {
     /**
      * The recipient of the request does not support one or more parameters

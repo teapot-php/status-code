@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-interface RFC7168 extends InformationalStatus, IETFStream
+interface RFC7168 extends IETFStream, InformationalStatus
 {
     /**
      * A BREW request to the "/" URI, as defined in Section 2.1.1, will
