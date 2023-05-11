@@ -3,8 +3,8 @@ it: coding-standards ## Runs the coding-standards target
 
 .PHONY: coding-standards
 coding-standards: vendor ## Fixes code style issues with squizlabs/php_codesniffer
-	vendor/bin/phpcbf
 	vendor/bin/phpcs
+	vendor/bin/phpcbf
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
