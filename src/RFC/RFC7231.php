@@ -50,55 +50,55 @@ interface RFC7231 extends ProposedStandard, IETFStream
 {
 
     /**
-   * The 100 (Continue) status code indicates that the initial part of a request
-   * has been received and has not yet been rejected by the server. The server
-   * intends to send a final response after the request has been fully received
-   * and acted upon.
-   *
-   * When the request contains an Expect header field that includes a
-   * 100-continue expectation, the 100 response indicates that the server wishes
-   * to receive the request payload body, as described in Section 5.1.1. The
-   * client ought to continue sending the request and discard the 100 response.
-   *
-   * If the request did not contain an Expect header field containing the
-   * 100-continue expectation, the client can simply discard this interim
-   * response.
-   *
-   * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.2.1
-   *
-   * @var int
-   */
+     * The 100 (Continue) status code indicates that the initial part of a request
+     * has been received and has not yet been rejected by the server. The server
+     * intends to send a final response after the request has been fully received
+     * and acted upon.
+     *
+     * When the request contains an Expect header field that includes a
+     * 100-continue expectation, the 100 response indicates that the server wishes
+     * to receive the request payload body, as described in Section 5.1.1. The
+     * client ought to continue sending the request and discard the 100 response.
+     *
+     * If the request did not contain an Expect header field containing the
+     * 100-continue expectation, the client can simply discard this interim
+     * response.
+     *
+     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.2.1
+     *
+     * @var int
+     */
     public const CONTINUING = 100;
 
     /**
-   * As 'continue' is a reserved word in PHP, we append an underscore, so
-   * developers can decide whether to use CONTINUING or CONTINUE_ as their
-   * preferred choice of constant.
-   *
-   * @see Teapot\StatusCode\RFC\RFC7231:CONTINUING
-   * @var int
-   */
+     * As 'continue' is a reserved word in PHP, we append an underscore, so
+     * developers can decide whether to use CONTINUING or CONTINUE_ as their
+     * preferred choice of constant.
+     *
+     * @see Teapot\StatusCode\RFC\RFC7231:CONTINUING
+     * @var int
+     */
     public const CONTINUE_ = self::CONTINUING;
 
     /**
-   * The 101 (Switching Protocols) status code indicates that the server
-   * understands and is willing to comply with the client's request, via the
-   * Upgrade header field (Section 6.7 of [RFC7230]), for a change in the
-   * application protocol being used on this connection. The server must
-   * generate an Upgrade header field in the response that indicates which
-   * protocol(s) will be switched to immediately after the empty line that
-   * terminates the 101 response.¶
-   *
-   * It is assumed that the server will only agree to switch protocols when it
-   * is advantageous to do so. For example, switching to a newer version of HTTP
-   * might be advantageous over older versions, and switching to a real-time,
-   * synchronous protocol might be advantageous when delivering resources that
-   * use such features.
-   *
-   * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.2.2
-   *
-   * @var int
-   */
+     * The 101 (Switching Protocols) status code indicates that the server
+     * understands and is willing to comply with the client's request, via the
+     * Upgrade header field (Section 6.7 of [RFC7230]), for a change in the
+     * application protocol being used on this connection. The server must
+     * generate an Upgrade header field in the response that indicates which
+     * protocol(s) will be switched to immediately after the empty line that
+     * terminates the 101 response.¶
+     *
+     * It is assumed that the server will only agree to switch protocols when it
+     * is advantageous to do so. For example, switching to a newer version of HTTP
+     * might be advantageous over older versions, and switching to a real-time,
+     * synchronous protocol might be advantageous when delivering resources that
+     * use such features.
+     *
+     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.2.2
+     *
+     * @var int
+     */
     public const SWITCHING_PROTOCOLS = 101;
 
     /**

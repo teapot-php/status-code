@@ -19,7 +19,7 @@
  * @license   MIT http://opensource.org/licenses/MIT
  *
  * @link https://github.com/teapot-php/status-code
-*/
+ */
 
 namespace Teapot\StatusCode;
 
