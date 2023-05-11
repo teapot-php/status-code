@@ -14,7 +14,11 @@ declare(strict_types=1);
 use Ergebnis\PhpCsFixer;
 
 $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\Php80(), [
-    'binary_operator_spaces' => false,
+    'binary_operator_spaces' => [
+        'operators' => [
+            '=' => 'align',
+        ],
+    ],
     'declare_strict_types' => false,
     'final_class' => false,
     'header_comment' => false,
