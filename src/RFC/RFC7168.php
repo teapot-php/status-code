@@ -18,7 +18,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -43,7 +43,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC7168 extends IETFStream, InformationalStatus
 {
@@ -54,7 +54,7 @@ interface RFC7168 extends IETFStream, InformationalStatus
      * served with a status code of 300, to indicate that brewing has not
      * commenced and further options must be chosen by the client.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.1
+     * @see https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.1
      * @var int
      */
     public const MULTIPLE_OPTIONS = 300;
@@ -70,7 +70,7 @@ interface RFC7168 extends IETFStream, InformationalStatus
      * viable combinations of additions for each variety to be served is
      * outside the scope of this document.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.2
+     * @see https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.2
      * @var int
      */
     public const BREW_FORBIDDEN = 403;
@@ -81,7 +81,7 @@ interface RFC7168 extends IETFStream, InformationalStatus
      * coffee, or a code of 418 as defined in the base HTCPCP specification
      * to denote a more permanent indication that the pot is a teapot.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.3
+     * @see https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.3
      * @var int
      */
     public const IM_A_TEAPOT = 418;

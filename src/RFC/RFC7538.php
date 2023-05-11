@@ -18,7 +18,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -43,7 +43,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC7538 extends IETFStream, ProposedStandard
 {
@@ -69,7 +69,7 @@ interface RFC7538 extends IETFStream, ProposedStandard
      * Section 6.4.2), except that it does not allow changing the request method
      * from POST to GET.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7538#section-3
+     * @see https://datatracker.ietf.org/doc/html/rfc7538#section-3
      *
      * @var int
      */

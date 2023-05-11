@@ -18,7 +18,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -43,7 +43,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC6585 extends IETFStream, ProposedStandard
 {
@@ -60,7 +60,7 @@ interface RFC6585 extends IETFStream, ProposedStandard
      *
      * Responses with the 428 status code MUST NOT be stored by a cache.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc6585#section-3
+     * @see https://datatracker.ietf.org/doc/html/rfc6585#section-3
      *
      * @var int
      */
@@ -99,7 +99,7 @@ interface RFC6585 extends IETFStream, ProposedStandard
      *
      * Responses with the 429 status code MUST NOT be stored by a cache.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc6585#section-4
+     * @see https://datatracker.ietf.org/doc/html/rfc6585#section-4
      *
      * @var int
      */
@@ -115,7 +115,7 @@ interface RFC6585 extends IETFStream, ProposedStandard
      * case, the response representation SHOULD specify which header field
      * was too large.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc6585#section-5
+     * @see https://datatracker.ietf.org/doc/html/rfc6585#section-5
      *
      * @var int
      */
@@ -139,7 +139,7 @@ interface RFC6585 extends IETFStream, ProposedStandard
      * dedicated to "logging in" unknown clients, and of course traffic to
      * the login server itself.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc6585#section-6
+     * @see https://datatracker.ietf.org/doc/html/rfc6585#section-6
      *
      * @var int
      */

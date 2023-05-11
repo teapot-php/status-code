@@ -18,7 +18,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -43,7 +43,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC5842 extends ExperimentalStatus, IETFStream
 {
@@ -59,7 +59,7 @@ interface RFC5842 extends ExperimentalStatus, IETFStream
      * bindings will use the 208 status, and no DAV:response elements for
      * their descendants are included.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc5842#section-7.1
+     * @see https://datatracker.ietf.org/doc/html/rfc5842#section-7.1
      *
      * @var int
      */
@@ -70,7 +70,7 @@ interface RFC5842 extends ExperimentalStatus, IETFStream
      * an infinite loop while processing a request with "Depth: infinity".
      * (sent in lieu of 208).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc5842#section-7.2
+     * @see https://datatracker.ietf.org/doc/html/rfc5842#section-7.2
      *
      * @var int
      */

@@ -19,7 +19,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC7725 extends IETFStream, ProposedStandard
 {
@@ -63,7 +63,7 @@ interface RFC7725 extends IETFStream, ProposedStandard
      * legal authority is imposing it, and what class of resources it
      * applies to.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7725#section-3
+     * @see https://datatracker.ietf.org/doc/html/rfc7725#section-3
      *
      * @var int
      */

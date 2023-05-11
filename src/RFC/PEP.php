@@ -19,7 +19,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface PEP extends ExpiredStatus, IETFStream
 {
@@ -67,7 +67,7 @@ interface PEP extends ExpiredStatus, IETFStream
      * Implementers may note the similarity to the way authentication
      * challenges are issued with the 401 (Unauthorized) status-code.
      *
-     * @link https://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743960
+     * @see https://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743960
      * @deprecated
      * @var int
      */
@@ -80,7 +80,7 @@ interface PEP extends ExpiredStatus, IETFStream
      * believes that it can find a unique set of header fields for which the
      * transaction will succeed.
      *
-     * @link https://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743961
+     * @see https://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743961
      * @deprecated
      * @var int
      */

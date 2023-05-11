@@ -18,7 +18,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -43,7 +43,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC2817 extends IETFStream, ProposedStandard
 {
@@ -55,7 +55,7 @@ interface RFC2817 extends IETFStream, ProposedStandard
      * Upgrade header in any response other than 101 or 426 to indicate a
      * willingness to switch to any (combination) of the protocols listed.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2817#section-4.2
+     * @see https://datatracker.ietf.org/doc/html/rfc2817#section-4.2
      *
      * @var int
      */

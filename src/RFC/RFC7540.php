@@ -18,7 +18,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC7540 extends IETFStream, ProposedStandard
 {
@@ -66,7 +66,7 @@ interface RFC7540 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7540#section-9.1.2
+     * @see https://datatracker.ietf.org/doc/html/rfc7540#section-9.1.2
      *
      * @var int
      */

@@ -18,7 +18,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -43,7 +43,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC7235 extends IETFStream, ProposedStandard
 {
@@ -63,7 +63,7 @@ interface RFC7235 extends IETFStream, ProposedStandard
      * enclosed representation to the user, since it usually contains relevant
      * diagnostic information.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7235#section-3.1
+     * @see https://datatracker.ietf.org/doc/html/rfc7235#section-3.1
      *
      * @var int
      */
@@ -77,7 +77,7 @@ interface RFC7235 extends IETFStream, ProposedStandard
      * proxy for the target resource. The client may repeat the request with a
      * new or replaced Proxy-Authorization header field (Section 4.4).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7235#section-3.2
+     * @see https://datatracker.ietf.org/doc/html/rfc7235#section-3.2
      *
      * @var int
      */

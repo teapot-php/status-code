@@ -19,7 +19,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -45,7 +45,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC2326 extends IETFStream, ProposedStandard
 {
@@ -53,7 +53,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * The recipient of the request does not support one or more parameters
      * contained in the request.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.2
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.2
      *
      * @var int
      */
@@ -63,7 +63,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * The conference indicated by a Conference header field is unknown to the
      * media server.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.3
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.3
      *
      * @var int
      */
@@ -73,7 +73,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * The request was refused because there was insufficient bandwidth.
      * This may, for example, be the result of a resource reservation failure.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.4
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.4
      *
      * @var int
      */
@@ -83,7 +83,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * The RTSP session identifier in the Session header is missing, invalid,
      * or has timed out.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.5
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.5
      *
      * @var int
      */
@@ -94,7 +94,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * The response SHOULD contain an Allow header to make error recovery
      * easier.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.6
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.6
      *
      * @var int
      */
@@ -105,7 +105,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * PLAY contains the Range header field but the stream does not allow
      * seeking.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.7
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.7
      *
      * @var int
      */
@@ -115,7 +115,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * The Range value given is out of bounds, e.g., beyond the end of the
      * presentation.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.8
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.8
      *
      * @var int
      */
@@ -124,7 +124,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
     /**
      * The parameter to be set by SET_PARAMETER can be read but not modified.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.9
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.9
      *
      * @var int
      */
@@ -135,7 +135,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * is an aggregate (presentation) URL. The method may be applied on a
      * stream URL.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.10
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.10
      *
      * @var int
      */
@@ -146,7 +146,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * is not an aggregate (presentation) URL. The method may be applied on the
      * presentation URL.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.11
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.11
      *
      * @var int
      */
@@ -156,7 +156,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * The Transport field did not contain a supported transport
      * specification.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.12
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.12
      *
      * @var int
      */
@@ -168,7 +168,7 @@ interface RFC2326 extends IETFStream, ProposedStandard
      * be the result of a client attempt to place an invalid Destination
      * parameter in the Transport field.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.13
+     * @see https://datatracker.ietf.org/doc/html/rfc2326#section-11.3.13
      *
      * @var int
      */

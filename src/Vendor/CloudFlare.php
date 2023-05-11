@@ -18,7 +18,7 @@
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\Vendor;
@@ -40,7 +40,7 @@ namespace Teapot\StatusCode\Vendor;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface CloudFlare
 {
@@ -55,7 +55,7 @@ interface CloudFlare
      * be the case if you're sending an abnormally high number of cookies for
      * example.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#520error
+     * @see https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#520error
      *
      * @var int
      */
@@ -76,7 +76,7 @@ interface CloudFlare
      * security solutions can mistake the increase in connections from this
      * smaller set of IPs as an attack, when they are legitimate.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#521error
+     * @see https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#521error
      *
      * @var int
      */
@@ -99,7 +99,7 @@ interface CloudFlare
      * The likely cause is that a background task is timing out. The most common
      * cause would be the database or a slow application.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#522error
+     * @see https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#522error
      *
      * @var int
      */
@@ -118,7 +118,7 @@ interface CloudFlare
      * As soon as you make the change in your CloudFlare DNS Settings page, wait
      * up to 5 minutes for it to take effect.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#523error
+     * @see https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#523error
      *
      * @var int
      */
@@ -140,7 +140,7 @@ interface CloudFlare
      * server is overloaded. With a 524 error, the connection is made but then
      * the request times out.
      *
-     * @link https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#524error
+     * @see https://support.cloudflare.com/hc/en-us/articles/115003011431-Error-520#524error
      *
      * @var int
      */

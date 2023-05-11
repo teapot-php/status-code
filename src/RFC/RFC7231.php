@@ -18,7 +18,7 @@
  * @copyright 2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -43,7 +43,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2013-2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC7231 extends IETFStream, ProposedStandard
 {
@@ -62,7 +62,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * 100-continue expectation, the client can simply discard this interim
      * response.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.2.1
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.2.1
      *
      * @var int
      */
@@ -93,7 +93,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * synchronous protocol might be advantageous when delivering resources that
      * use such features.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.2.2
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.2.2
      *
      * @var int
      */
@@ -129,7 +129,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * {@link https://datatracker.ietf.org/doc/html/rfc7234#section-4.2.2 RFC7234}).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.1
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.1
      *
      * @var int
      */
@@ -147,7 +147,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * validator header fields, such as ETag and Last-Modified, in a 201
      * response.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.2
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.2
      *
      * @var int
      */
@@ -169,7 +169,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * monitor that can provide the user with an estimate of when the request
      * will be fulfilled.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.3
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.3
      *
      * @var int
      */
@@ -193,7 +193,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.4
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.4
      *
      * @var int
      */
@@ -232,7 +232,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.5
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.5
      *
      * @var int
      */
@@ -262,7 +262,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * c) close the connection immediately after sending the blank line
      * terminating the header section.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.6
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.6
      *
      * @var int
      */
@@ -308,7 +308,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * with a relationship of "alternate", though deployment is a
      * chicken-and-egg problem.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.1
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.1
      *
      * @var int
      */
@@ -336,7 +336,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.2
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.2
      *
      * @var int
      */
@@ -358,7 +358,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * from POST to GET for the subsequent request. If this behavior is
      * undesired, the 307 (Temporary Redirect) status code can be used instead.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.3
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.3
      *
      * @var int
      */
@@ -394,7 +394,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * response ought to contain a short hypertext note with a hyperlink to the
      * same URI reference provided in the Location header field.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.4
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.4
      *
      * @var int
      */
@@ -404,7 +404,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * The 305 (Use Proxy) status code was defined in a previous version of this
      * specification and is now deprecated
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.5
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.5
      *
      * @var int
      * @deprecated
@@ -415,7 +415,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * The 306 (Unused) status code was defined in a previous version of this
      * specification, is no longer used, and the code is reserved.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.6
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.6
      *
      * @var int
      * @deprecated
@@ -442,7 +442,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * however, defines the status code 308 (Permanent Redirect) for this
      * purpose).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.7
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.4.7
      *
      * @var int
      */
@@ -454,7 +454,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * client error (e.g., malformed request syntax, invalid request message
      * framing, or deceptive request routing).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.1
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.1
      *
      * @var int
      */
@@ -463,7 +463,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
     /**
      * The 402 (Payment Required) status code is reserved for future use.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.2
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.2
      *
      * @var int
      */
@@ -485,7 +485,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * forbidden target resource may instead respond with a status code of 404
      * (Not Found).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.3
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.3
      *
      * @var int
      */
@@ -504,7 +504,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.4
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.4
      *
      * @var int
      */
@@ -521,7 +521,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.5
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.5
      *
      * @var int
      */
@@ -541,7 +541,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * that list. However, this specification does not define any standard for
      * such automatic selection, as described in Section 6.4.1.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.6
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.6
      *
      * @var int
      */
@@ -556,7 +556,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * the client has an outstanding request in transit, the client may repeat
      * that request on a new connection.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.7
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.7
      *
      * @var int
      */
@@ -578,7 +578,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * response representation would likely contain information useful for
      * merging the differences based on the revision history.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.8
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.8
      *
      * @var int
      */
@@ -604,7 +604,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.9
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.9
      *
      * @var int
      */
@@ -617,7 +617,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * Content-Length header field containing the length of the message body in
      * the request message.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.10
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.10
      *
      * @var int
      */
@@ -633,7 +633,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * header field to indicate that it is temporary and after what time the
      * client may try again.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.11
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.11
      *
      * @var int
      */
@@ -654,7 +654,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2
      * of [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.12
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.12
      *
      * @var int
      */
@@ -667,7 +667,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * problem might be due to the request's indicated Content-Type or
      * Content-Encoding, or as a result of inspecting the data directly.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.13
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.13
      *
      * @var int
      */
@@ -678,7 +678,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * given in the request's Expect header field (Section 5.1.1) could not be
      * met by at least one of the inbound servers.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.14
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.14
      *
      * @var int
      */
@@ -701,7 +701,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      *
      * This service requires use of the HTTP/3.0 protocol.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.15
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.15
      *
      * @var int
      */
@@ -712,7 +712,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * encountered an unexpected condition that prevented it from fulfilling the
      * request.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.1
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.1
      *
      * @var int
      */
@@ -728,7 +728,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * by the method definition or explicit cache controls (see Section 4.2.2 of
      * [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.2
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.2
      *
      * @var int
      */
@@ -739,7 +739,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * as a gateway or proxy, received an invalid response from an inbound
      * server it accessed while attempting to fulfill the request.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.3
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.3
      *
      * @var int
      */
@@ -757,7 +757,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * has to use it when becoming overloaded. Some servers might simply refuse
      * the connection.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.4
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.4
      *
      * @var int
      */
@@ -768,7 +768,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * acting as a gateway or proxy, did not receive a timely response from an
      * upstream server it needed to access in order to complete the request.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.5
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.5
      *
      * @var int
      */
@@ -784,7 +784,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * 505 response that describes why that version is not supported and what
      * other protocols are supported by that server.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.6
+     * @see https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.6
      *
      * @var int
      */

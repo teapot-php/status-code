@@ -18,7 +18,7 @@
  * @copyright 2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 
 namespace Teapot\StatusCode\RFC;
@@ -43,7 +43,7 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  * @copyright 2016 B Hanlon. All rights reserved.
  * @license   MIT http://opensource.org/licenses/MIT
  *
- * @link https://github.com/teapot-php/status-code
+ * @see https://github.com/teapot-php/status-code
  */
 interface RFC7233 extends IETFStream, ProposedStandard
 {
@@ -141,7 +141,7 @@ interface RFC7233 extends IETFStream, ProposedStandard
      * A 206 response is cacheable by default; i.e., unless otherwise indicated
      * by explicit cache controls (see Section 4.2.2 of [RFC7234]).
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7233#section-4.1
+     * @see https://datatracker.ietf.org/doc/html/rfc7233#section-4.1
      *
      * @var int
      */
@@ -170,7 +170,7 @@ interface RFC7233 extends IETFStream, ProposedStandard
      * receiving a 416 (Range Not Satisfiable) response even when it is most
      * appropriate.
      *
-     * @link https://datatracker.ietf.org/doc/html/rfc7233#section-4.4
+     * @see https://datatracker.ietf.org/doc/html/rfc7233#section-4.4
      *
      * @var int
      */
