@@ -45,7 +45,6 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
  *
  * @link https://github.com/teapot-php/status-code
  */
-
 interface RFC7234 extends ProposedStandard, IETFStream
 {
     /**
