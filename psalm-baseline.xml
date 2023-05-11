@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.11.0@c9b192ab8400fdaf04b2b13d110575adc879aa90"/>
+<files psalm-version="5.11.0@c9b192ab8400fdaf04b2b13d110575adc879aa90">
+  <file src="src/All.php">
+    <UnusedClass>
+      <code>All</code>
+    </UnusedClass>
+  </file>
+  <file src="src/RFC/RFC2616.php">
+    <UnusedClass>
+      <code>RFC2616</code>
+    </UnusedClass>
+  </file>
+  <file src="src/RFC/Stream/Independent.php">
+    <UnusedClass>
+      <code>Independent</code>
+    </UnusedClass>
+  </file>
+  <file src="src/Vendor/RFC7238.php">
+    <UnusedClass>
+      <code>RFC7238</code>
+    </UnusedClass>
+  </file>
+  <file src="src/Vendor/Symfony.php">
+    <DeprecatedClass>
+      <code>RFC2324::I_AM_A_TEAPOT</code>
+    </DeprecatedClass>
+    <DeprecatedConstant>
+      <code>RFC7231::UNUSED</code>
+      <code>RFC7231::USE_PROXY</code>
+    </DeprecatedConstant>
+    <UnusedClass>
+      <code>Symfony</code>
+    </UnusedClass>
+  </file>
+</files>
