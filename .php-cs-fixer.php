@@ -14,7 +14,6 @@ declare(strict_types=1);
 use Ergebnis\PhpCsFixer;
 
 $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\Php80(), [
-    'align_multiline_comment' => false,
     'binary_operator_spaces' => false,
     'class_attributes_separation' => false,
     'declare_strict_types' => false,
