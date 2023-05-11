@@ -48,7 +48,6 @@ use Teapot\StatusCode\RFC\Stream\IETF as IETFStream;
 
 interface RFC7231 extends ProposedStandard, IETFStream
 {
-
     /**
      * The 100 (Continue) status code indicates that the initial part of a request
      * has been received and has not yet been rejected by the server. The server
