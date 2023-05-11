@@ -20,6 +20,7 @@
  *
  * @link https://github.com/teapot-php/status-code
  */
+
 namespace Teapot\StatusCode;
 
 use Teapot\StatusCode\RFC\PEP;

@@ -20,6 +20,7 @@
  *
  * @link https://github.com/teapot-php/status-code
  */
+
 namespace Teapot\StatusCode\Vendor;
 
 use Teapot\StatusCode\RFC\RFC2295;

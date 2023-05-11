@@ -21,6 +21,7 @@
  * @link https://github.com/teapot-php/status-code
  * @link http://lists.w3.org/Archives/Public/public-web-perf/2013Apr/att-0007/WebRequestStatusCodes4.html
  */
+
 namespace Teapot\StatusCode;
 
 use Teapot\StatusCode\RFC\RFC7168 as HTCPCPTea;

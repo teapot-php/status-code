@@ -21,6 +21,7 @@
  *
  * @link https://github.com/teapot-php/status-code
  */
+
 namespace Teapot\StatusCode\RFC;
 
 use Teapot\StatusCode\RFC\Status\Expired as ExpiredStatus;
