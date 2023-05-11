@@ -6,7 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.0.1...main`][2.0.1...main].
+For a full diff see [`2.1.0...main`][2.1.0...main].
+
+## [`2.1.0`][2.1.0]
+
+For a full diff see [`2.0.1...2.1.0`][2.0.1...2.1.0].
 
 ### Changed
 
@@ -84,7 +88,8 @@ For a full diff see [`1091250...v1.0.0`][1091250...v1.0.0].
 [v1.1.1...v1.1.2]: https://github.com/teapot-php/status-code/compare/v1.1.1...v1.1.2
 [v1.1.2...2.0.0]: https://github.com/teapot-php/status-code/compare/v1.1.2...2.0.0
 [2.0.0...2.0.1]: https://github.com/teapot-php/status-code/compare/2.0.0...2.0.1
-[2.0.1...main]: https://github.com/teapot-php/status-code/compare/2.0.1...main
+[2.0.1...2.1.0]: https://github.com/teapot-php/status-code/compare/2.0.1...2.1.0
+[2.1.0...main]: https://github.com/teapot-php/status-code/compare/2.1.0...main
 
 [#24]: https://github.com/teapot-php/status-code/pull/24
 [#25]: https://github.com/teapot-php/status-code/pull/25
