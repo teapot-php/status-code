@@ -14,6 +14,7 @@ For a full diff see [`2.0.1...main`][2.0.1...main].
 - Dropped support for PHP 5.5 ([#58]), by [@localheinz]
 - Dropped support for PHP 5.6 ([#59]), by [@localheinz]
 - Dropped support for PHP 7.0 ([#60]), by [@localheinz]
+- Dropped support for PHP 7.1 ([#61]), by [@localheinz]
 
 ## [`2.0.1`][2.0.1]
 
@@ -90,6 +91,7 @@ For a full diff see [`1091250...v1.0.0`][1091250...v1.0.0].
 [#58]: https://github.com/teapot-php/status-code/pull/58
 [#59]: https://github.com/teapot-php/status-code/pull/59
 [#60]: https://github.com/teapot-php/status-code/pull/60
+[#61]: https://github.com/teapot-php/status-code/pull/61
 
 [@jtheuerkauf]: https://github.com/jtheuerkauf
 [@localheinz]: https://github.com/localheinz
