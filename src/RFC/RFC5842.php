@@ -62,7 +62,7 @@ interface RFC5842 extends ExperimentalStatus, IETFStream
      *
      * @var int
      */
-    const ALREADY_REPORTED = 208;
+    public const ALREADY_REPORTED = 208;
 
     /**
      * The 508 (Loop Detected) status code indicates that the server detected
@@ -73,5 +73,5 @@ interface RFC5842 extends ExperimentalStatus, IETFStream
      *
      * @var int
      */
-    const LOOP_DETECTED = 508;
+    public const LOOP_DETECTED = 508;
 }

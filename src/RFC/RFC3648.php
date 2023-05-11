@@ -61,5 +61,5 @@ interface RFC3648 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const UNORDERED_COLLECTION = 425;
+    public const UNORDERED_COLLECTION = 425;
 }

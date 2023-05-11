@@ -69,5 +69,5 @@ interface RFC7540 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const MISDIRECTED_REQUEST = 421;
+    public const MISDIRECTED_REQUEST = 421;
 }

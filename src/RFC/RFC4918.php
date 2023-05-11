@@ -62,7 +62,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const MULTI_STATUS = 207;
+    public const MULTI_STATUS = 207;
 
     /**
      * The 422 (Unprocessable Entity) status code means the server understands
@@ -78,7 +78,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const UNPROCESSABLE_ENTITY = 422;
+    public const UNPROCESSABLE_ENTITY = 422;
 
     /**
      * The 423 (Locked) status code means the source or destination resource
@@ -90,7 +90,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const ENTITY_LOCKED = 423;
+    public const ENTITY_LOCKED = 423;
 
     /**
      * Indicates the method was not executed on a particular resource within
@@ -101,7 +101,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const METHOD_FAILURE = 424;
+    public const METHOD_FAILURE = 424;
 
     /**
      * The 424 (Failed Dependency) status code means that the method could not
@@ -114,7 +114,7 @@ interface RFC4918 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const FAILED_DEPENDENCY = 424;
+    public const FAILED_DEPENDENCY = 424;
 
     /**
      * The server is unable to store the representation needed to complete the
@@ -124,5 +124,5 @@ interface RFC4918 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const INSUFFICIENT_STORAGE = 507;
+    public const INSUFFICIENT_STORAGE = 507;
 }

@@ -72,5 +72,5 @@ interface RFC3229 extends ProposedStandard, LegacyStream
      *
      * @var int
      */
-    const IM_USED = 226;
+    public const IM_USED = 226;
 }

@@ -58,7 +58,7 @@ interface CloudFlare
      *
      * @var int
      */
-    const ORIGIN_ERROR = 520;
+    public const ORIGIN_ERROR = 520;
 
     /**
      * An Error 521 means that the origin web server refused the connection from
@@ -79,7 +79,7 @@ interface CloudFlare
      *
      * @var int
      */
-    const ORIGIN_DECLINED_REQUEST = 521;
+    public const ORIGIN_DECLINED_REQUEST = 521;
 
     /**
      * An Error 522 means that the connection started on the origin web server,
@@ -102,7 +102,7 @@ interface CloudFlare
      *
      * @var int
      */
-    const CONNECTION_TIMED_OUT = 522;
+    public const CONNECTION_TIMED_OUT = 522;
 
     /**
      * This status code is not specified in any RFCs, but is used by
@@ -121,7 +121,7 @@ interface CloudFlare
      *
      * @var int
      */
-    const PROXY_DECLINED_REQUEST = 523;
+    public const PROXY_DECLINED_REQUEST = 523;
 
     /**
      * This status code is not specified in any RFCs, but is used by
@@ -143,5 +143,5 @@ interface CloudFlare
      *
      * @var int
      */
-    const TIMEOUT_OCCURRED = 524;
+    public const TIMEOUT_OCCURRED = 524;
 }

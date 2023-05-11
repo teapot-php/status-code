@@ -66,7 +66,7 @@ interface RFC7235 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const UNAUTHORIZED = 401;
+    public const UNAUTHORIZED = 401;
 
     /**
      * The 407 (Proxy Authentication Required) status code is similar to 401
@@ -80,5 +80,5 @@ interface RFC7235 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PROXY_AUTHENTICATION_REQUIRED = 407;
+    public const PROXY_AUTHENTICATION_REQUIRED = 407;
 }

@@ -72,5 +72,5 @@ interface RFC7538 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PERMANENT_REDIRECT = 308;
+    public const PERMANENT_REDIRECT = 308;
 }

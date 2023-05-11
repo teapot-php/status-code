@@ -82,7 +82,7 @@ interface RFC7232 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const NOT_MODIFIED = 304;
+    public const NOT_MODIFIED = 304;
 
     /**
      * The 412 (Precondition Failed) status code indicates that one or more
@@ -96,5 +96,5 @@ interface RFC7232 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PRECONDITION_FAILED = 412;
+    public const PRECONDITION_FAILED = 412;
 }

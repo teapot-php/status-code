@@ -54,5 +54,5 @@ interface RFC2324 extends InformationalStatus, LegacyStream
      *
      * @var int
      */
-    const I_AM_A_TEAPOT = 418;
+    public const I_AM_A_TEAPOT = 418;
 }

@@ -62,7 +62,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const CONTINUING = 100;
+    public const CONTINUING = 100;
 
     /**
      * This means the requester has asked the server to switch protocols and
@@ -78,7 +78,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const SWITCHING_PROTOCOLS = 101;
+    public const SWITCHING_PROTOCOLS = 101;
 
     /**
      * The request has succeeded. The information returned with the response is
@@ -95,7 +95,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const OK = 200;
+    public const OK = 200;
 
     /**
      * The request has been fulfilled and resulted in a new resource being
@@ -114,7 +114,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const CREATED = 201;
+    public const CREATED = 201;
 
     /**
      * The request has been accepted for processing, but the processing has not
@@ -136,7 +136,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const ACCEPTED = 202;
+    public const ACCEPTED = 202;
 
     /**
      * The returned metainformation in the entity-header is not the definitive
@@ -151,7 +151,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const NON_AUTHORITATIVE_INFORMATION = 203;
+    public const NON_AUTHORITATIVE_INFORMATION = 203;
 
     /**
      * The server has fulfilled the request but does not need to return an
@@ -173,7 +173,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const NO_CONTENT = 204;
+    public const NO_CONTENT = 204;
 
     /**
      * The server has fulfilled the request and the user agent SHOULD reset
@@ -187,7 +187,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const RESET_CONTENT = 205;
+    public const RESET_CONTENT = 205;
 
     /**
      * The server has fulfilled the partial GET request for the resource. The
@@ -227,7 +227,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const PARTIAL_CONTENT = 206;
+    public const PARTIAL_CONTENT = 206;
 
     /**
      * The requested resource corresponds to any one of a set of
@@ -252,7 +252,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const MULTIPLE_CHOICES = 300;
+    public const MULTIPLE_CHOICES = 300;
 
     /**
      * The requested resource has been assigned a new permanent URI and any
@@ -278,7 +278,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const MOVED_PERMANENTLY = 301;
+    public const MOVED_PERMANENTLY = 301;
 
     /**
      * The requested resource resides temporarily under a different URI. Since
@@ -306,7 +306,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const FOUND = 302;
+    public const FOUND = 302;
 
     /**
      * The response to the request can be found under a different URI and
@@ -329,7 +329,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const SEE_OTHER = 303;
+    public const SEE_OTHER = 303;
 
     /**
      * If the client has performed a conditional GET request and access is
@@ -365,7 +365,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const NOT_MODIFIED = 304;
+    public const NOT_MODIFIED = 304;
 
     /**
      * The requested resource MUST be accessed through the proxy given by the
@@ -381,7 +381,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const USE_PROXY = 305;
+    public const USE_PROXY = 305;
 
     /**
      * The requested resource resides temporarily under a different URI. Since
@@ -403,7 +403,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const TEMPORARY_REDIRECT = 307;
+    public const TEMPORARY_REDIRECT = 307;
 
     /**
      * The request could not be understood by the server due to malformed
@@ -413,7 +413,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const BAD_REQUEST = 400;
+    public const BAD_REQUEST = 400;
 
     /**
      * The request requires user authentication. The response MUST include a
@@ -433,7 +433,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const UNAUTHORIZED = 401;
+    public const UNAUTHORIZED = 401;
 
     /**
      * This code is reserved for future use.
@@ -442,7 +442,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const PAYMENT_REQUIRED = 402;
+    public const PAYMENT_REQUIRED = 402;
 
     /**
      * The server understood the request, but is refusing to fulfill it.
@@ -457,7 +457,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const FORBIDDEN = 403;
+    public const FORBIDDEN = 403;
 
     /**
      * The server has not found anything matching the Request-URI. No
@@ -473,7 +473,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const NOT_FOUND = 404;
+    public const NOT_FOUND = 404;
 
     /**
      * The method specified in the Request-Line is not allowed for the resource
@@ -484,7 +484,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const METHOD_NOT_ALLOWED = 405;
+    public const METHOD_NOT_ALLOWED = 405;
 
     /**
      * The resource identified by the request is only capable of generating
@@ -513,7 +513,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const NOT_ACCEPTABLE = 406;
+    public const NOT_ACCEPTABLE = 406;
 
     /**
      * This code is similar to 401 (Unauthorized), but indicates that the
@@ -528,7 +528,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const PROXY_AUTHENTICATION_REQUIRED = 407;
+    public const PROXY_AUTHENTICATION_REQUIRED = 407;
 
     /**
      * The client did not produce a request within the time that the server
@@ -539,7 +539,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const REQUEST_TIMEOUT = 408;
+    public const REQUEST_TIMEOUT = 408;
 
     /**
      * The request could not be completed due to a conflict with the current
@@ -563,7 +563,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const CONFLICT = 409;
+    public const CONFLICT = 409;
 
     /**
      * The requested resource is no longer available at the server and no
@@ -588,7 +588,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const GONE = 410;
+    public const GONE = 410;
 
     /**
      * The server refuses to accept the request without a defined
@@ -600,7 +600,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const LENGTH_REQUIRED = 411;
+    public const LENGTH_REQUIRED = 411;
 
     /**
      * The precondition given in one or more of the request-header fields
@@ -613,7 +613,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const PRECONDITION_FAILED = 412;
+    public const PRECONDITION_FAILED = 412;
 
     /**
      * The server is refusing to process a request because the request entity
@@ -627,7 +627,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const REQUEST_ENTITY_TOO_LARGE = 413;
+    public const REQUEST_ENTITY_TOO_LARGE = 413;
 
     /**
      * The server is refusing to service the request because the Request-URI
@@ -644,7 +644,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const REQUEST_URI_TOO_LONG = 414;
+    public const REQUEST_URI_TOO_LONG = 414;
 
     /**
      * The server is refusing to service the request because the entity of the
@@ -655,7 +655,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const UNSUPPORTED_MEDIA_TYPE = 415;
+    public const UNSUPPORTED_MEDIA_TYPE = 415;
 
     /**
      * A server SHOULD return a response with this status code if a request
@@ -674,7 +674,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const REQUESTED_RANGE_NOT_SATISFIABLE = 416;
+    public const REQUESTED_RANGE_NOT_SATISFIABLE = 416;
 
     /**
      * The expectation given in an Expect request-header field (see section
@@ -686,7 +686,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const EXPECTATION_FAILED = 417;
+    public const EXPECTATION_FAILED = 417;
 
     /**
      * The server encountered an unexpected condition which prevented it from
@@ -696,7 +696,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const INTERNAL_SERVER_ERROR = 500;
+    public const INTERNAL_SERVER_ERROR = 500;
 
     /**
      * The server does not support the functionality required to fulfill the
@@ -708,7 +708,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const NOT_IMPLEMENTED = 501;
+    public const NOT_IMPLEMENTED = 501;
 
     /**
      * The server, while acting as a gateway or proxy, received an invalid
@@ -719,7 +719,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const BAD_GATEWAY = 502;
+    public const BAD_GATEWAY = 502;
 
     /**
      * The server is currently unable to handle the request due to a temporary
@@ -736,7 +736,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const SERVICE_UNAVAILABLE = 503;
+    public const SERVICE_UNAVAILABLE = 503;
 
     /**
      * The server, while acting as a gateway or proxy, did not receive a
@@ -750,7 +750,7 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const GATEWAY_TIMEOUT = 504;
+    public const GATEWAY_TIMEOUT = 504;
 
     /**
      * The server does not support, or refuses to support, the HTTP protocol
@@ -765,5 +765,5 @@ interface RFC2616 extends DraftStandard, IETFStream
      *
      * @var int
      */
-    const HTTP_VERSION_NOT_SUPPORTED = 505;
+    public const HTTP_VERSION_NOT_SUPPORTED = 505;
 }

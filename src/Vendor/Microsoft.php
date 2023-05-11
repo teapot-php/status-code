@@ -48,7 +48,7 @@ interface Microsoft
      *
      * @var int
      */
-    const LOGIN_TIMEOUT = 440;
+    public const LOGIN_TIMEOUT = 440;
 
     /**
      * A Microsoft extension. The request should be retried after performing
@@ -65,7 +65,7 @@ interface Microsoft
      *
      * @var int
      */
-    const RETRY_WITH = 449;
+    public const RETRY_WITH = 449;
 
     /**
      * A Microsoft extension. This error is given when Windows Parental Controls
@@ -73,7 +73,7 @@ interface Microsoft
      *
      * @var int
      */
-    const BLOCKED_BY_WINDOWS_PARENTAL_CONTROLS = 450;
+    public const BLOCKED_BY_WINDOWS_PARENTAL_CONTROLS = 450;
 
     /**
      * Used in Exchange ActiveSync if there either is a more efficient server
@@ -84,5 +84,5 @@ interface Microsoft
      *
      * @var int
      */
-    const REDIRECT = 451;
+    public const REDIRECT = 451;
 }

@@ -64,5 +64,5 @@ interface RFC2774 extends ExperimentalStatus, LegacyStream
      *
      * @var int
      */
-    const NOT_EXTENDED = 510;
+    public const NOT_EXTENDED = 510;
 }

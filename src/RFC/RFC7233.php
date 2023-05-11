@@ -144,7 +144,7 @@ interface RFC7233 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PARTIAL_CONTENT = 206;
+    public const PARTIAL_CONTENT = 206;
 
     /**
     * The 416 (Range Not Satisfiable) status code indicates that none of the
@@ -173,5 +173,5 @@ interface RFC7233 extends ProposedStandard, IETFStream
     *
     * @var int
     */
-    const RANGE_NOT_SATISFIABLE = 416;
+    public const RANGE_NOT_SATISFIABLE = 416;
 }

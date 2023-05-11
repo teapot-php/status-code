@@ -56,7 +56,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PARAMETER_NOT_UNDERSTOOD = 451;
+    public const PARAMETER_NOT_UNDERSTOOD = 451;
 
     /**
      * The conference indicated by a Conference header field is unknown to the
@@ -66,7 +66,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const CONFERENCE_NOT_FOUND = 452;
+    public const CONFERENCE_NOT_FOUND = 452;
 
     /**
      * The request was refused because there was insufficient bandwidth.
@@ -76,7 +76,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const NOT_ENOUGH_BANDWIDTH = 453;
+    public const NOT_ENOUGH_BANDWIDTH = 453;
 
     /**
      * The RTSP session identifier in the Session header is missing, invalid,
@@ -86,7 +86,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const SESSION_NOT_FOUND = 454;
+    public const SESSION_NOT_FOUND = 454;
 
     /**
      * The client or server cannot process this request in its current state.
@@ -97,7 +97,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const METHOD_NOT_VALID_IN_THIS_STATE = 455;
+    public const METHOD_NOT_VALID_IN_THIS_STATE = 455;
 
     /**
      * The server could not act on a required request header. For example, if
@@ -108,7 +108,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const HEADER_FIELD_NOT_VALID_FOR_RESOURCE = 456;
+    public const HEADER_FIELD_NOT_VALID_FOR_RESOURCE = 456;
 
     /**
      * The Range value given is out of bounds, e.g., beyond the end of the
@@ -118,7 +118,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const INVALID_RANGE = 457;
+    public const INVALID_RANGE = 457;
 
     /**
      * The parameter to be set by SET_PARAMETER can be read but not modified.
@@ -127,7 +127,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PARAMETER_IS_READ_ONLY = 458;
+    public const PARAMETER_IS_READ_ONLY = 458;
 
     /**
      * The requested method may not be applied on the URL in question since it
@@ -138,7 +138,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const AGGREGATE_OPERATION_NOT_ALLOWED = 459;
+    public const AGGREGATE_OPERATION_NOT_ALLOWED = 459;
 
     /**
      * The requested method may not be applied on the URL in question since it
@@ -149,7 +149,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const ONLY_AGGREGATE_OPERATION_ALLOWED = 460;
+    public const ONLY_AGGREGATE_OPERATION_ALLOWED = 460;
 
     /**
      * The Transport field did not contain a supported transport
@@ -159,7 +159,7 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const UNSUPPORTED_TRANSPORT = 461;
+    public const UNSUPPORTED_TRANSPORT = 461;
 
     /**
      * The data transmission channel could not be established because the
@@ -171,5 +171,5 @@ interface RFC2326 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const DESTINATION_UNREACHABLE = 462;
+    public const DESTINATION_UNREACHABLE = 462;
 }

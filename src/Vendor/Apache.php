@@ -50,5 +50,5 @@ interface Apache
      *
      * @var int
      */
-    const BANDWIDTH_LIMIT_EXCEEDED = 509;
+    public const BANDWIDTH_LIMIT_EXCEEDED = 509;
 }

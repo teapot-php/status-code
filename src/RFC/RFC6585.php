@@ -63,7 +63,7 @@ interface RFC6585 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PRECONDITION_REQUIRED = 428;
+    public const PRECONDITION_REQUIRED = 428;
 
     /**
      * The 429 status code indicates that the user has sent too many requests
@@ -102,7 +102,7 @@ interface RFC6585 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const TOO_MANY_REQUESTS = 429;
+    public const TOO_MANY_REQUESTS = 429;
 
     /**
      * The 431 status code indicates that the server is unwilling to process
@@ -118,7 +118,7 @@ interface RFC6585 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const REQUEST_HEADER_FIELDS_TOO_LARGE = 431;
+    public const REQUEST_HEADER_FIELDS_TOO_LARGE = 431;
 
     /**
      * The 511 status code is designed to mitigate problems caused by
@@ -142,5 +142,5 @@ interface RFC6585 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const NETWORK_AUTHENTICATION_REQUIRED = 511;
+    public const NETWORK_AUTHENTICATION_REQUIRED = 511;
 }

@@ -51,5 +51,5 @@ interface Twitter
      *
      * @var int
      */
-    const ENHANCE_YOUR_CALM = 420;
+    public const ENHANCE_YOUR_CALM = 420;
 }

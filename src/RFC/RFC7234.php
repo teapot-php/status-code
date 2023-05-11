@@ -53,7 +53,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.1
      * @var  int
      */
-    const RESPONSE_IS_STALE = 110;
+    public const RESPONSE_IS_STALE = 110;
 
     /**
      * A cache SHOULD generate this when sending a stale response because an
@@ -63,7 +63,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.2
      * @var  int
      */
-    const REVALIDATION_FAILED = 111;
+    public const REVALIDATION_FAILED = 111;
 
     /**
      * A cache SHOULD generate this if it is intentionally disconnected from
@@ -72,7 +72,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.3
      * @var  int
      */
-    const DISCONNECTED_OPERATION = 112;
+    public const DISCONNECTED_OPERATION = 112;
 
     /**
      * A cache SHOULD generate this if it heuristically chose a freshness
@@ -82,7 +82,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.4
      * @var  int
      */
-    const HEURISTIC_EXPIRATION = 113;
+    public const HEURISTIC_EXPIRATION = 113;
 
     /**
      * The warning text can include arbitrary information to be presented to
@@ -93,7 +93,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.5
      * @var  int
      */
-    const MISCELLANEOUS_WARNING = 199;
+    public const MISCELLANEOUS_WARNING = 199;
 
     /**
      * This Warning code MUST be added by a proxy if it applies any
@@ -104,7 +104,7 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.6
      * @var  int
      */
-    const TRANSFORMATION_APPLIED = 214;
+    public const TRANSFORMATION_APPLIED = 214;
 
     /**
      * The warning text can include arbitrary information to be presented to
@@ -114,5 +114,5 @@ interface RFC7234 extends ProposedStandard, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7234#section-5.5.7
      * @var  int
      */
-    const MISCELLANEOUS_PERSISTENT_WARNING = 299;
+    public const MISCELLANEOUS_PERSISTENT_WARNING = 299;
 }

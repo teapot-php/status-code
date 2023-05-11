@@ -56,7 +56,7 @@ interface RFC7168 extends InformationalStatus, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.1
      * @var int
      */
-    const MULTIPLE_OPTIONS = 300;
+    public const MULTIPLE_OPTIONS = 300;
 
     /**
      * Services that implement the Accept-Additions header field MAY return
@@ -72,7 +72,7 @@ interface RFC7168 extends InformationalStatus, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.2
      * @var int
      */
-    const BREW_FORBIDDEN = 403;
+    public const BREW_FORBIDDEN = 403;
 
     /**
      * TEA-capable pots that are not provisioned to brew coffee may return
@@ -83,5 +83,5 @@ interface RFC7168 extends InformationalStatus, IETFStream
      * @link https://datatracker.ietf.org/doc/html/rfc7168#section-2.3.3
      * @var int
      */
-    const IM_A_TEAPOT = 418;
+    public const IM_A_TEAPOT = 418;
 }

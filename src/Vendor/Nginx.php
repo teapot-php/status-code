@@ -50,14 +50,14 @@ interface Nginx
      *
      * @var int
      */
-    const NO_RESPONSE = 444;
+    public const NO_RESPONSE = 444;
 
     /**
      * Nginx internal code similar to 431 but it was introduced earlier.
      *
      * @var int
      */
-    const REQUEST_HEADER_TOO_LARGE = 494;
+    public const REQUEST_HEADER_TOO_LARGE = 494;
 
     /**
      * Nginx internal code used when SSL client certificate error occurred to
@@ -65,7 +65,7 @@ interface Nginx
      *
      * @var int
      */
-    const CERT_ERROR = 495;
+    public const CERT_ERROR = 495;
 
     /**
      * Nginx internal code used when client didn't provide certificate to
@@ -73,7 +73,7 @@ interface Nginx
      *
      * @var int
      */
-    const NO_CERT = 496;
+    public const NO_CERT = 496;
 
     /**
      * Nginx internal code used for the plain HTTP requests that are sent to
@@ -82,7 +82,7 @@ interface Nginx
      *
      * @var int
      */
-    const HTTP_TO_HTTPS = 497;
+    public const HTTP_TO_HTTPS = 497;
 
     /**
      * Used in Nginx logs to indicate when the connection has been closed by
@@ -91,5 +91,5 @@ interface Nginx
      *
      * @var int
      */
-    const CLIENT_CLOSED_REQUEST = 499;
+    public const CLIENT_CLOSED_REQUEST = 499;
 }

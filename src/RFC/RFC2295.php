@@ -54,5 +54,5 @@ interface RFC2295 extends ExperimentalStatus, IETFStream
      *
      * @var int
      */
-    const VARIANT_ALSO_NEGOTIATES = 506;
+    public const VARIANT_ALSO_NEGOTIATES = 506;
 }

@@ -58,5 +58,5 @@ interface RFC2817 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const UPGRADE_REQUIRED = 426;
+    public const UPGRADE_REQUIRED = 426;
 }

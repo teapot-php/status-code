@@ -70,7 +70,7 @@ interface PEP extends ExpiredStatus, IETFStream
      * @deprecated
      * @var int
      */
-    const POLICY_NOT_FULFILLED = 420;
+    public const POLICY_NOT_FULFILLED = 420;
 
     /**
      * The mappings indicated by one or more map attribute bags in the request
@@ -83,5 +83,5 @@ interface PEP extends ExpiredStatus, IETFStream
      * @deprecated
      * @var int
      */
-    const BAD_MAPPING = 421;
+    public const BAD_MAPPING = 421;
 }

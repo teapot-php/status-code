@@ -66,5 +66,5 @@ interface RFC7725 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const UNAVAILABLE_FOR_LEGAL_REASONS = 451;
+    public const UNAVAILABLE_FOR_LEGAL_REASONS = 451;
 }

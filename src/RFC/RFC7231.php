@@ -67,7 +67,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
    *
    * @var int
    */
-    const CONTINUING = 100;
+    public const CONTINUING = 100;
 
     /**
    * As 'continue' is a reserved word in PHP, we append an underscore, so
@@ -77,7 +77,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
    * @see Teapot\StatusCode\RFC\RFC7231:CONTINUING
    * @var int
    */
-    const CONTINUE_ = self::CONTINUING;
+    public const CONTINUE_ = self::CONTINUING;
 
     /**
    * The 101 (Switching Protocols) status code indicates that the server
@@ -98,7 +98,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
    *
    * @var int
    */
-    const SWITCHING_PROTOCOLS = 101;
+    public const SWITCHING_PROTOCOLS = 101;
 
     /**
      * The 200 (OK) status code indicates that the request has succeeded. The
@@ -134,7 +134,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const OK = 200;
+    public const OK = 200;
 
     /**
      * The 201 (Created) status code indicates that the request has been
@@ -152,7 +152,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const CREATED = 201;
+    public const CREATED = 201;
 
     /**
      * The 202 (Accepted) status code indicates that the request has been
@@ -174,7 +174,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const ACCEPTED = 202;
+    public const ACCEPTED = 202;
 
     /**
      * The 203 (Non-Authoritative Information) status code indicates that the
@@ -198,7 +198,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const NON_AUTHORITATIVE_INFORMATION = 203;
+    public const NON_AUTHORITATIVE_INFORMATION = 203;
 
     /**
      * The 204 (No Content) status code indicates that the server has
@@ -237,7 +237,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const NO_CONTENT = 204;
+    public const NO_CONTENT = 204;
 
     /**
      * The 205 (Reset Content) status code indicates that the server has
@@ -267,7 +267,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const RESET_CONTENT = 205;
+    public const RESET_CONTENT = 205;
 
     /**
      * The 300 (Multiple Choices) status code indicates that the target resource
@@ -313,7 +313,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const MULTIPLE_CHOICES = 300;
+    public const MULTIPLE_CHOICES = 300;
 
     /**
      * The 301 (Moved Permanently) status code indicates that the target
@@ -341,7 +341,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const MOVED_PERMANENTLY = 301;
+    public const MOVED_PERMANENTLY = 301;
 
     /**
      * The 302 (Found) status code indicates that the target resource resides
@@ -363,7 +363,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const FOUND = 302;
+    public const FOUND = 302;
 
     /**
      * The 303 (See Other) status code indicates that the server is redirecting
@@ -399,7 +399,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const SEE_OTHER = 303;
+    public const SEE_OTHER = 303;
 
     /**
      * The 305 (Use Proxy) status code was defined in a previous version of this
@@ -410,7 +410,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * @var int
      * @deprecated
      */
-    const USE_PROXY = 305;
+    public const USE_PROXY = 305;
 
     /**
      * The 306 (Unused) status code was defined in a previous version of this
@@ -421,7 +421,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      * @var int
      * @deprecated
      */
-    const UNUSED = 306;
+    public const UNUSED = 306;
 
     /**
      * The 307 (Temporary Redirect) status code indicates that the target
@@ -447,7 +447,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const TEMPORARY_REDIRECT = 307;
+    public const TEMPORARY_REDIRECT = 307;
 
     /**
      * The 400 (Bad Request) status code indicates that the server cannot or
@@ -459,7 +459,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const BAD_REQUEST = 400;
+    public const BAD_REQUEST = 400;
 
     /**
      * The 402 (Payment Required) status code is reserved for future use.
@@ -468,7 +468,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PAYMENT_REQUIRED = 402;
+    public const PAYMENT_REQUIRED = 402;
 
     /**
      * The 403 (Forbidden) status code indicates that the server understood the
@@ -490,7 +490,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const FORBIDDEN = 403;
+    public const FORBIDDEN = 403;
 
     /**
      * The 404 (Not Found) status code indicates that the origin server did not
@@ -509,7 +509,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const NOT_FOUND = 404;
+    public const NOT_FOUND = 404;
 
     /**
      * The 405 (Method Not Allowed) status code indicates that the method
@@ -526,7 +526,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const METHOD_NOT_ALLOWED = 405;
+    public const METHOD_NOT_ALLOWED = 405;
 
     /**
      * The 406 (Not Acceptable) status code indicates that the target resource
@@ -546,7 +546,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const NOT_ACCEPTABLE = 406;
+    public const NOT_ACCEPTABLE = 406;
 
     /**
      * The 408 (Request Timeout) status code indicates that the server did not
@@ -561,7 +561,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const REQUEST_TIMEOUT = 408;
+    public const REQUEST_TIMEOUT = 408;
 
     /**
      * The 409 (Conflict) status code indicates that the request could not be
@@ -583,7 +583,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const CONFLICT = 409;
+    public const CONFLICT = 409;
 
     /**
      * The 410 (Gone) status code indicates that access to the target resource
@@ -609,7 +609,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const GONE = 410;
+    public const GONE = 410;
 
     /**
      * The 411 (Length Required) status code indicates that the server refuses
@@ -622,7 +622,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const LENGTH_REQUIRED = 411;
+    public const LENGTH_REQUIRED = 411;
 
     /**
      * The 413 (Payload Too Large) status code indicates that the server is
@@ -638,7 +638,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PAYLOAD_TOO_LARGE = 413;
+    public const PAYLOAD_TOO_LARGE = 413;
 
      /**
       * The 414 (URI Too Long) status code indicates that the server is
@@ -659,7 +659,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
       *
       * @var int
       */
-    const URI_TOO_LONG = 414;
+    public const URI_TOO_LONG = 414;
 
     /**
      * The 415 (Unsupported Media Type) status code indicates that the origin
@@ -672,7 +672,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const UNSUPPORTED_MEDIA_TYPE = 415;
+    public const UNSUPPORTED_MEDIA_TYPE = 415;
 
     /**
      * The 417 (Expectation Failed) status code indicates that the expectation
@@ -683,7 +683,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const EXPECTATION_FAILED = 417;
+    public const EXPECTATION_FAILED = 417;
 
     /**
      * The 426 (Upgrade Required) status code indicates that the server refuses
@@ -706,7 +706,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const UPGRADE_REQUIRED = 426;
+    public const UPGRADE_REQUIRED = 426;
 
     /**
      * The 500 (Internal Server Error) status code indicates that the server
@@ -717,7 +717,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const INTERNAL_SERVER_ERROR = 500;
+    public const INTERNAL_SERVER_ERROR = 500;
 
     /**
      * The 501 (Not Implemented) status code indicates that the server does not
@@ -733,7 +733,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const NOT_IMPLEMENTED = 501;
+    public const NOT_IMPLEMENTED = 501;
 
     /**
      * The 502 (Bad Gateway) status code indicates that the server, while acting
@@ -744,7 +744,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const BAD_GATEWAY = 502;
+    public const BAD_GATEWAY = 502;
 
     /**
      * The 503 (Service Unavailable) status code indicates that the server is
@@ -762,7 +762,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const SERVICE_UNAVAILABLE = 503;
+    public const SERVICE_UNAVAILABLE = 503;
 
     /**
      * The 504 (Gateway Timeout) status code indicates that the server, while
@@ -773,7 +773,7 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const GATEWAY_TIMEOUT = 504;
+    public const GATEWAY_TIMEOUT = 504;
 
     /**
      * The 505 (HTTP Version Not Supported) status code indicates that the
@@ -789,5 +789,5 @@ interface RFC7231 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const HTTP_VERSION_NOT_SUPPORTED = 505;
+    public const HTTP_VERSION_NOT_SUPPORTED = 505;
 }

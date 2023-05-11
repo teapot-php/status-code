@@ -54,5 +54,5 @@ interface RFC2518 extends ProposedStandard, IETFStream
      *
      * @var int
      */
-    const PROCESSING = 102;
+    public const PROCESSING = 102;
 }
