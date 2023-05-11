@@ -2,9 +2,9 @@
 it: coding-standards ## Runs the coding-standards target
 
 .PHONY: coding-standards
-coding-standards: vendor ## Fixes code style issues with squizlabs/php_codesniffer
-	vendor/bin/phpcs
-	vendor/bin/phpcbf
+coding-standards: vendor ## Fixes code style issues with friendsofphp/php-cs-fixer
+	mkdir -p .build/php-cs-fixer/
+	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --verbose
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
