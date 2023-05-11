@@ -83,6 +83,7 @@ For a full diff see [`1091250...v1.0.0`][1091250...v1.0.0].
 [#25]: https://github.com/teapot-php/status-code/pull/25
 [#26]: https://github.com/teapot-php/status-code/pull/26
 [#56]: https://github.com/teapot-php/status-code/pull/56
+[#57]: https://github.com/teapot-php/status-code/pull/57
 
 [@jtheuerkauf]: https://github.com/jtheuerkauf
 [@localheinz]: https://github.com/localheinz
