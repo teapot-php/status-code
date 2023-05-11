@@ -50,7 +50,6 @@ use Teapot\StatusCode\RFC\RFC7725;
  * This allows for codes to be repurposed in a natural way where the core,
  * traditional use would not be meaningful.
  *
- *
  * @category StatusCode
  *
  * @package Teapot\StatusCode\Vendor
