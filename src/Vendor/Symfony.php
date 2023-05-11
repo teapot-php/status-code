@@ -108,7 +108,7 @@ interface Symfony
     const HTTP_LOCKED                                                    = RFC4918::ENTITY_LOCKED;
     const HTTP_FAILED_DEPENDENCY                                         = RFC4918::FAILED_DEPENDENCY;
     const HTTP_RESERVED_FOR_WEBDAV_ADVANCED_COLLECTIONS_EXPIRED_PROPOSAL = RFC3648::UNORDERED_COLLECTION;
-    const HTTP_UPGRADE_REQUIRED                                          = RFC2817::UPDATE_REQUIRED;
+    const HTTP_UPGRADE_REQUIRED                                          = RFC2817::UPGRADE_REQUIRED;
     const HTTP_PRECONDITION_REQUIRED                                     = RFC6585::PRECONDITION_REQUIRED;
     const HTTP_TOO_MANY_REQUESTS                                         = RFC6585::TOO_MANY_REQUESTS;
     const HTTP_REQUEST_HEADER_FIELDS_TOO_LARGE                           = RFC6585::REQUEST_HEADER_FIELDS_TOO_LARGE;
