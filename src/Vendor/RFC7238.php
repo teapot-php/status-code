@@ -10,5 +10,4 @@ namespace Teapot\StatusCode\Vendor;
 
 class RFC7238
 {
-
 }

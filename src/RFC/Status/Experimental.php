@@ -34,5 +34,4 @@ namespace Teapot\StatusCode\RFC\Status;
  */
 interface Experimental
 {
-
 }
