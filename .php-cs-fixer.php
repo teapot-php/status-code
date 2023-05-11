@@ -30,7 +30,6 @@ $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\P
     'phpdoc_no_package' => false,
     'phpdoc_separation' => false,
     'phpdoc_summary' => false,
-    'phpdoc_trim_consecutive_blank_line_separation' => false,
 ]);
 
 $config->getFinder()
