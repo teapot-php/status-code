@@ -23,3 +23,7 @@ Part of the teapot library. This is a port of all of the status codes, so the ex
 ## Changelog
 
 Please have a look at [`CHANGELOG.md`](CHANGELOG.md).
+
+## Contributing
+
+Please have a look at [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).

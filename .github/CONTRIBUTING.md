@@ -1,0 +1,39 @@
+# CONTRIBUTING
+
+We are using [GitHub Actions](https://github.com/features/actions) as a continuous integration system.
+
+For details, take a look at the following workflow configuration files:
+
+- [`workflows/integrate.yaml`](workflows/integrate.yaml)
+
+## Coding Standards
+
+We are using [`squizlabs/php_codesniffer`](https://github.com/squizlabs/PHP_CodeSniffer) to enforce coding standards in PHP files.
+
+Run
+
+```sh
+make coding-standards
+```
+
+to automatically fix coding standard violations.
+
+## Extra lazy?
+
+Run
+
+```sh
+make
+```
+
+to automatically enforce coding standards!
+
+## Help
+
+:bulb: Run
+
+```sh
+make help
+```
+
+to display a list of available targets with corresponding descriptions.
