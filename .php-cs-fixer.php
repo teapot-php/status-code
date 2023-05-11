@@ -33,7 +33,6 @@ $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\P
     'phpdoc_trim_consecutive_blank_line_separation' => false,
     'single_blank_line_before_namespace' => false,
     'statement_indentation' => false,
-    'visibility_required' => false,
 ]);
 
 $config->getFinder()
