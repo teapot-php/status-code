@@ -16,6 +16,7 @@ For a full diff see [`2.0.1...main`][2.0.1...main].
 - Dropped support for PHP 7.0 ([#60]), by [@localheinz]
 - Dropped support for PHP 7.1 ([#61]), by [@localheinz]
 - Dropped support for PHP 7.2 ([#62]), by [@localheinz]
+- Dropped support for PHP 7.3 ([#63]), by [@localheinz]
 
 ## [`2.0.1`][2.0.1]
 
@@ -94,6 +95,7 @@ For a full diff see [`1091250...v1.0.0`][1091250...v1.0.0].
 [#60]: https://github.com/teapot-php/status-code/pull/60
 [#61]: https://github.com/teapot-php/status-code/pull/61
 [#62]: https://github.com/teapot-php/status-code/pull/62
+[#63]: https://github.com/teapot-php/status-code/pull/63
 
 [@jtheuerkauf]: https://github.com/jtheuerkauf
 [@localheinz]: https://github.com/localheinz
