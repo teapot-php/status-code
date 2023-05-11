@@ -18,7 +18,6 @@ $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\P
     'declare_strict_types' => false,
     'final_class' => false,
     'header_comment' => false,
-    'phpdoc_align' => false,
     'phpdoc_indent' => false,
     'phpdoc_no_alias_tag' => false,
     'phpdoc_no_package' => false,
