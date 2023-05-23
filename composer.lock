@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1645e728e8cec2766ee74d8a65cbec16",
+    "content-hash": "7d7640db7d9416ccd7ed1b3842e55338",
     "packages": [],
     "packages-dev": [
         {
@@ -627,34 +627,34 @@
         },
         {
             "name": "ergebnis/php-cs-fixer-config",
-            "version": "5.5.2",
+            "version": "5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/php-cs-fixer-config.git",
-                "reference": "b926460aa2a978dcb2cb6c8d79323d2abab27157"
+                "reference": "669252e3a4a47dd01fa87866323391f96f08dde6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/b926460aa2a978dcb2cb6c8d79323d2abab27157",
-                "reference": "b926460aa2a978dcb2cb6c8d79323d2abab27157",
+                "url": "https://api.github.com/repos/ergebnis/php-cs-fixer-config/zipball/669252e3a4a47dd01fa87866323391f96f08dde6",
+                "reference": "669252e3a4a47dd01fa87866323391f96f08dde6",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
-                "friendsofphp/php-cs-fixer": "~3.16.0",
+                "friendsofphp/php-cs-fixer": "~3.17.0",
                 "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.30.2",
+                "ergebnis/composer-normalize": "^2.31.0",
                 "ergebnis/license": "^2.1.0",
-                "fakerphp/faker": "^1.21.0",
+                "fakerphp/faker": "^1.22.0",
                 "infection/infection": "~0.26.19",
-                "phpunit/phpunit": "^9.6.7",
+                "phpunit/phpunit": "^9.6.8",
                 "psalm/plugin-phpunit": "~0.18.4",
-                "rector/rector": "~0.15.25",
+                "rector/rector": "~0.16.0",
                 "symfony/filesystem": "^5.0.0 || ^6.0.0",
                 "symfony/process": "^5.0.0 || ^6.0.0",
-                "vimeo/psalm": "^5.9.0"
+                "vimeo/psalm": "^5.11.0"
             },
             "type": "library",
             "extra": {
@@ -684,7 +684,7 @@
                 "issues": "https://github.com/ergebnis/php-cs-fixer-config/issues",
                 "source": "https://github.com/ergebnis/php-cs-fixer-config"
             },
-            "time": "2023-04-27T17:31:51+00:00"
+            "time": "2023-05-23T05:46:01+00:00"
         },
         {
             "name": "felixfbecker/advanced-json-rpc",
@@ -850,16 +850,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.16.0",
+            "version": "v3.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "d40f9436e1c448d309fa995ab9c14c5c7a96f2dc"
+                "reference": "3f0ed862f22386c55a767461ef5083bddceeed79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/d40f9436e1c448d309fa995ab9c14c5c7a96f2dc",
-                "reference": "d40f9436e1c448d309fa995ab9c14c5c7a96f2dc",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3f0ed862f22386c55a767461ef5083bddceeed79",
+                "reference": "3f0ed862f22386c55a767461ef5083bddceeed79",
                 "shasum": ""
             },
             "require": {
@@ -934,7 +934,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.16.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.17.0"
             },
             "funding": [
                 {
@@ -942,7 +942,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-02T19:30:06+00:00"
+            "time": "2023-05-22T19:59:32+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
