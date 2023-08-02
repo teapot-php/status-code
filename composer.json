@@ -22,7 +22,7 @@
   },
   "require-dev": {
     "ergebnis/php-cs-fixer-config": "^5.9.2",
-    "vimeo/psalm": "^5.14.0"
+    "vimeo/psalm": "^5.14.1"
   },
   "config": {
     "platform": {
