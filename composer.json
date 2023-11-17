@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+    "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
   },
   "require-dev": {
     "ergebnis/php-cs-fixer-config": "^5.9.2",
