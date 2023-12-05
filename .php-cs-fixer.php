@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 use Ergebnis\PhpCsFixer;
 
-$config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\Php80(), [
+$ruleSet = PhpCsFixer\Config\RuleSet\Php80::create()->withRules(PhpCsFixer\Config\Rules::fromArray([
     'binary_operator_spaces' => [
         'operators' => [
             '=' => 'align',
@@ -25,7 +25,9 @@ $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\P
     'phpdoc_no_package' => false,
     'phpdoc_separation' => false,
     'phpdoc_summary' => false,
-]);
+]));
+
+$config = PhpCsFixer\Config\Factory::fromRuleSet($ruleSet);
 
 $config->getFinder()
     ->exclude([
