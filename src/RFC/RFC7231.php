@@ -73,7 +73,7 @@ interface RFC7231 extends IETFStream, ProposedStandard
      * developers can decide whether to use CONTINUING or CONTINUE_ as their
      * preferred choice of constant.
      *
-     * @see Teapot\StatusCode\RFC\RFC7231:CONTINUING
+     * @see RFC7231:CONTINUING
      * @var int
      */
     public const CONTINUE_ = self::CONTINUING;
