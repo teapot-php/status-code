@@ -4,7 +4,7 @@ it: coding-standards static-code-analysis ## Runs the coding-standards and stati
 .PHONY: coding-standards
 coding-standards: vendor ## Fixes code style issues with friendsofphp/php-cs-fixer
 	mkdir -p .build/php-cs-fixer/
-	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --verbose
+	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --show-progress=dots --verbose
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
