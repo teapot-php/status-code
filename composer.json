@@ -21,7 +21,7 @@
     "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
   },
   "require-dev": {
-    "ergebnis/php-cs-fixer-config": "^6.17.0",
+    "ergebnis/php-cs-fixer-config": "^6.19.0",
     "vimeo/psalm": "^5.18.0"
   },
   "config": {
