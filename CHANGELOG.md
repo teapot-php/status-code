@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`2.2.0...main`][2.2.0...main].
 
+### Changed
+
+- Added support for PHP 7.4, ([#114]), by [@localheinz]
+
 ## [`2.2.0`][2.2.0]
 
 For a full diff see [`2.1.0...2.2.0`][2.1.0...2.2.0].
@@ -115,6 +119,7 @@ For a full diff see [`1091250...v1.0.0`][1091250...v1.0.0].
 [#63]: https://github.com/teapot-php/status-code/pull/63
 [#64]: https://github.com/teapot-php/status-code/pull/64
 [#90]: https://github.com/teapot-php/status-code/pull/90
+[#114]: https://github.com/teapot-php/status-code/pull/114
 
 [@jtheuerkauf]: https://github.com/jtheuerkauf
 [@localheinz]: https://github.com/localheinz
