@@ -2,7 +2,8 @@
 it: coding-standards static-code-analysis ## Runs the coding-standards and static-code-analysis targets
 
 .PHONY: coding-standards
-coding-standards: vendor ## Fixes code style issues with friendsofphp/php-cs-fixer
+coding-standards: vendor ## Normalizes composer.json with ergebnis/composer-normalize and fixes code style issues with friendsofphp/php-cs-fixer
+	composer normalize
 	mkdir -p .build/php-cs-fixer/
 	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --show-progress=dots --verbose
 
