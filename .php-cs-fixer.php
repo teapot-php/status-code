@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 use Ergebnis\PhpCsFixer;
 
-$ruleSet = PhpCsFixer\Config\RuleSet\Php80::create()->withRules(PhpCsFixer\Config\Rules::fromArray([
+$ruleSet = PhpCsFixer\Config\RuleSet\Php74::create()->withRules(PhpCsFixer\Config\Rules::fromArray([
     'binary_operator_spaces' => [
         'operators' => [
             '=' => 'align',
