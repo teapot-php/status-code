@@ -1,12 +1,11 @@
 {
   "name": "teapot/status-code",
-  "type": "library",
   "description": "PHP HTTP Response Status code library",
+  "license": "MIT",
+  "type": "library",
   "keywords": [
     "http"
   ],
-  "homepage": "https://github.com/teapot-php/status-code",
-  "license": "MIT",
   "authors": [
     {
       "name": "Barney Hanlon",
@@ -17,6 +16,7 @@
       "email": "am@localheinz.com"
     }
   ],
+  "homepage": "https://github.com/teapot-php/status-code",
   "require": {
     "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
   },
@@ -24,15 +24,6 @@
     "ergebnis/composer-normalize": "^2.42.0",
     "ergebnis/php-cs-fixer-config": "^6.21.0",
     "vimeo/psalm": "^5.21.1"
-  },
-  "config": {
-    "platform": {
-      "php": "7.4.33"
-    },
-    "sort-packages": true,
-    "allow-plugins": {
-      "ergebnis/composer-normalize": true
-    }
   },
   "autoload": {
     "psr-4": {
@@ -43,5 +34,14 @@
     "exclude": [
       "/*, !/src"
     ]
+  },
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true
+    },
+    "platform": {
+      "php": "7.4.33"
+    },
+    "sort-packages": true
   }
 }
