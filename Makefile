@@ -4,7 +4,6 @@ it: coding-standards static-code-analysis ## Runs the coding-standards and stati
 .PHONY: coding-standards
 coding-standards: vendor ## Normalizes composer.json with ergebnis/composer-normalize and fixes code style issues with friendsofphp/php-cs-fixer
 	composer normalize
-	mkdir -p .build/php-cs-fixer/
 	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php --diff --show-progress=dots --verbose
 
 .PHONY: help
@@ -13,13 +12,11 @@ help: ## Displays this list of targets with descriptions
 
 .PHONY: static-code-analysis
 static-code-analysis: vendor ## Runs a static code analysis with vimeo/psalm
-	mkdir -p .build/psalm/
 	vendor/bin/psalm --config=psalm.xml --clear-cache
 	vendor/bin/psalm --config=psalm.xml --show-info=false --stats --threads=4
 
 .PHONY: static-code-analysis-baseline
 static-code-analysis-baseline: vendor ## Generates a baseline for static code analysis with vimeo/psalm
-	mkdir -p .build/psalm/
 	vendor/bin/psalm --config=psalm.xml --clear-cache
 	vendor/bin/psalm --config=psalm.xml --set-baseline=psalm-baseline.xml
 
