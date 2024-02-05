@@ -8,6 +8,8 @@ For details, take a look at the following workflow configuration files:
 
 ## Coding Standards
 
+We use [`ergebnis/composer-normalize`](https://github.com/ergebnis/composer-normalize) to normalize `composer.json`.
+
 We are using [`friendsofphp/php-cs-fixer`](https://github.com/FriendsOfPHP/PHP-CS-Fixer) to enforce coding standards in PHP files.
 
 Run
