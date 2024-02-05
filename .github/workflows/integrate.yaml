@@ -34,7 +34,7 @@ jobs:
           tools: "composer"
 
       - name: "Validate composer.json and composer.lock"
-        run: "composer validate --strict"
+        run: "composer validate --ansi --strict"
 
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.0"
