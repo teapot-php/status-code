@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.21.1@8c473e2437be8b6a8fd8f630f0f11a16b114c494">
+<files psalm-version="5.23.0@005e3184fb6de4350a873b9b8c4dc3cede9db762">
   <file src="src/All.php">
     <UnusedClass>
-      <code>All</code>
+      <code><![CDATA[All]]></code>
     </UnusedClass>
   </file>
   <file src="src/RFC/RFC2616.php">
     <UnusedClass>
-      <code>RFC2616</code>
+      <code><![CDATA[RFC2616]]></code>
     </UnusedClass>
   </file>
   <file src="src/RFC/Stream/Independent.php">
     <UnusedClass>
-      <code>Independent</code>
+      <code><![CDATA[Independent]]></code>
     </UnusedClass>
   </file>
   <file src="src/Vendor/RFC7238.php">
     <UnusedClass>
-      <code>RFC7238</code>
+      <code><![CDATA[RFC7238]]></code>
     </UnusedClass>
   </file>
   <file src="src/Vendor/Symfony.php">
     <DeprecatedClass>
-      <code>RFC2324::I_AM_A_TEAPOT</code>
+      <code><![CDATA[RFC2324::I_AM_A_TEAPOT]]></code>
     </DeprecatedClass>
     <DeprecatedConstant>
-      <code>RFC7231::UNUSED</code>
-      <code>RFC7231::USE_PROXY</code>
+      <code><![CDATA[RFC7231::UNUSED]]></code>
+      <code><![CDATA[RFC7231::USE_PROXY]]></code>
     </DeprecatedConstant>
     <UnusedClass>
-      <code>Symfony</code>
+      <code><![CDATA[Symfony]]></code>
     </UnusedClass>
   </file>
 </files>
