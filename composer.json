@@ -18,7 +18,7 @@
   ],
   "homepage": "https://github.com/teapot-php/status-code",
   "require": {
-    "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
+    "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.45.0",
