@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Interface representing extended HTTP status codes for vendor-specific codes.
  * These codes are represented as an interface so that developers may implement
