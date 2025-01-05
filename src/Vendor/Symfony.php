@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Interface representing extended HTTP status codes used by the Symfony
  * framework. These codes are represented as an interface so that developers

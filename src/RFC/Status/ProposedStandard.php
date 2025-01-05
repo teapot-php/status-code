@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Interface representing the RFC status of a given RFC.
  *

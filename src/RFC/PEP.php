@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Interface representing extended HTTP status codes for PEP
  * (Protocol Extension Protocol: http://www.w3.org/TR/WD-http-pep). These codes

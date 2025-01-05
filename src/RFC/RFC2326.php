@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Interface representing extended HTTP status codes for RTSP
  * (Real Time Streaming Protocol), as listed in RFC2326. These codes are

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Interface representing the stream responsible for the RFC.
  *
