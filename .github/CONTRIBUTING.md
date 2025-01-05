@@ -22,7 +22,7 @@ to automatically fix coding standard violations.
 
 ## Static Code Analysis
 
-We are using [`vimeo/psalm`](https://github.com/vimeo/psalm) to statically analyze the code.
+We use [`phpstan/phpstan`](https://github.com/phpstan/phpstan) to statically analyze the code.
 
 Run
 
@@ -32,7 +32,7 @@ make static-code-analysis
 
 to run a static code analysis.
 
-We are also using the baseline feature of [`vimeo/psalm`](https://psalm.dev/docs/running_psalm/dealing_with_code_issues/#using-a-baseline-file).
+We also use the baseline feature of [`phpstan/phpstan`](https://phpstan.org/user-guide/baseline).
 
 Run
 
@@ -40,7 +40,7 @@ Run
 make static-code-analysis-baseline
 ```
 
-to regenerate the baseline in [`../psalm-baseline.xml`](../psalm-baseline.xml).
+to regenerate the baseline in [`../phpstan-baseline.neon`](../phpstan-baseline.neon).
 
 :exclamation: Ideally, the baseline should shrink over time.
 
