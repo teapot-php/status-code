@@ -29,7 +29,7 @@ jobs:
         uses: "actions/checkout@v4.2.2"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.32.0"
+        uses: "shivammathur/setup-php@2.33.0"
         with:
           coverage: "none"
           extensions: "none, json, mbstring, tokenizer"
@@ -91,7 +91,7 @@ jobs:
         uses: "actions/checkout@v4.2.2"
 
       - name: "Set up PHP"
-        uses: "shivammathur/setup-php@2.32.0"
+        uses: "shivammathur/setup-php@2.33.0"
         with:
           coverage: "none"
           extensions: "none, json, mbstring, tokenizer"
