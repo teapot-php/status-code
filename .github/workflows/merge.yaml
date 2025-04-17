@@ -10,7 +10,7 @@ on: # yamllint disable-line rule:truthy
       - "Integrate"
 
 permissions:
-  issues: "write"
+  contents: "write"
   pull-requests: "write"
 
 jobs:
