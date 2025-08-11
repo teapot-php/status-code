@@ -32,7 +32,7 @@ jobs:
         uses: "shivammathur/setup-php@2.35.3"
         with:
           coverage: "none"
-          extensions: "none, json, mbstring, tokenizer"
+          extensions: "none, iconv, json, mbstring, tokenizer"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
@@ -94,7 +94,7 @@ jobs:
         uses: "shivammathur/setup-php@2.35.3"
         with:
           coverage: "none"
-          extensions: "none, json, mbstring, tokenizer"
+          extensions: "none, iconv, json, mbstring, tokenizer"
           php-version: "${{ matrix.php-version }}"
 
       - name: "Set up problem matchers for PHP"
