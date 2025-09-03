@@ -21,7 +21,7 @@
     "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2.47.0",
+    "ergebnis/composer-normalize": "^2.48.1",
     "ergebnis/php-cs-fixer-config": "^6.53.0",
     "phpstan/phpstan": "^2.1.12",
     "phpstan/phpstan-deprecation-rules": "^2.0.3",
