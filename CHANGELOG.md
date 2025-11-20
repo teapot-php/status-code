@@ -14,7 +14,7 @@ For a full diff see [`2.3.0...2.4.0`][2.3.0...2.4.0].
 
 ### Changed
 
-- Added support for PHP 8.4, ([#159]), by [@holtkamp]
+- Added support for PHP 8.4 ([#159]), by [@holtkamp]
 
 ## [`2.3.0`][2.3.0]
 
@@ -22,7 +22,7 @@ For a full diff see [`2.2.0...2.3.0`][2.2.0...2.3.0].
 
 ### Changed
 
-- Added support for PHP 7.4, ([#114]), by [@localheinz]
+- Added support for PHP 7.4 ([#114]), by [@localheinz]
 
 ## [`2.2.0`][2.2.0]
 
@@ -30,7 +30,7 @@ For a full diff see [`2.1.0...2.2.0`][2.1.0...2.2.0].
 
 ### Changed
 
-- Added support for PHP 8.3, ([#90]), by [@OrestisZag]
+- Added support for PHP 8.3 ([#90]), by [@OrestisZag]
 
 ## [`2.1.0`][2.1.0]
 
