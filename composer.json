@@ -23,7 +23,7 @@
   "require-dev": {
     "ergebnis/composer-normalize": "^2.47.0",
     "ergebnis/php-cs-fixer-config": "^6.55.0",
-    "phpstan/phpstan": "^2.1.30",
+    "phpstan/phpstan": "^2.1.32",
     "phpstan/phpstan-deprecation-rules": "^2.0.3",
     "phpstan/phpstan-strict-rules": "^2.0.7"
   },
