@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`2.4.0...main`][2.4.0...main].
 
+### Changed
+
+- Added support for PHP 8.5 ([#250]), by [@holtkamp]
+
 ## [`2.4.0`][2.4.0]
 
 For a full diff see [`2.3.0...2.4.0`][2.3.0...2.4.0].
